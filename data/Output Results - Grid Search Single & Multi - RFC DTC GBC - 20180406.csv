@@ -1,0 +1,654 @@
+0,Random Forest Classifier,roc_auc_score,GS Best,{'criterion': 'gini'},churn,0.613252711897779
+1,Random Forest Classifier,gs,criterion,gini,churn,0.5957370716812248
+2,Random Forest Classifier,gs,criterion,entropy,churn,0.5956667386587747
+3,Random Forest Classifier,roc_auc_score,GS Best,{'n_estimators': 700},churn,0.6957618297811936
+4,Random Forest Classifier,gs,n_estimators,400,churn,0.6779832897736938
+5,Random Forest Classifier,gs,n_estimators,500,churn,0.6792677248045881
+6,Random Forest Classifier,gs,n_estimators,600,churn,0.6801887528257294
+7,Random Forest Classifier,gs,n_estimators,700,churn,0.6811335514877203
+8,Random Forest Classifier,roc_auc_score,GS Best,{'max_features': None},churn,0.6105309407045668
+9,Random Forest Classifier,gs,max_features,,churn,0.6075984245606606
+10,Random Forest Classifier,gs,max_features,auto,churn,0.5957370716812248
+11,Random Forest Classifier,gs,max_features,sqrt,churn,0.5957370716812248
+12,Random Forest Classifier,gs,max_features,log2,churn,0.5685516697042915
+13,Random Forest Classifier,roc_auc_score,GS Best,{'max_depth': 3},churn,0.6816059294288416
+14,Random Forest Classifier,gs,max_depth,,churn,0.5957370716812248
+15,Random Forest Classifier,gs,max_depth,2,churn,0.6833967071018185
+16,Random Forest Classifier,gs,max_depth,3,churn,0.6876496143160504
+17,Random Forest Classifier,gs,max_depth,4,churn,0.6830016448037535
+18,Random Forest Classifier,gs,max_depth,5,churn,0.6854121941955352
+19,Random Forest Classifier,roc_auc_score,GS Best,{'min_samples_leaf': 43},churn,0.6941855892797043
+20,Random Forest Classifier,gs,min_samples_leaf,29,churn,0.6654677570892221
+21,Random Forest Classifier,gs,min_samples_leaf,31,churn,0.673804249211921
+22,Random Forest Classifier,gs,min_samples_leaf,33,churn,0.6690445617189682
+23,Random Forest Classifier,gs,min_samples_leaf,35,churn,0.6743251663110282
+24,Random Forest Classifier,gs,min_samples_leaf,37,churn,0.6790726912677653
+25,Random Forest Classifier,gs,min_samples_leaf,39,churn,0.6693053483512328
+26,Random Forest Classifier,gs,min_samples_leaf,41,churn,0.6788345488766604
+27,Random Forest Classifier,gs,min_samples_leaf,43,churn,0.6800922893911453
+28,Random Forest Classifier,roc_auc_score,GS Best,{'max_leaf_nodes': 25},churn,0.7059666473204985
+29,Random Forest Classifier,gs,max_leaf_nodes,,churn,0.5957370716812248
+30,Random Forest Classifier,gs,max_leaf_nodes,20,churn,0.6837116723627471
+31,Random Forest Classifier,gs,max_leaf_nodes,25,churn,0.6837377283613503
+32,Random Forest Classifier,gs,max_leaf_nodes,30,churn,0.682485191218213
+33,Random Forest Classifier,gs,max_leaf_nodes,35,churn,0.6827073633198705
+34,Random Forest Classifier,gs,max_leaf_nodes,40,churn,0.6829520671216899
+35,Random Forest Classifier,roc_auc_score,GS Best,{'min_samples_split': 48},churn,0.6394347169850199
+36,Random Forest Classifier,gs,min_samples_split,20,churn,0.6301978747320431
+37,Random Forest Classifier,gs,min_samples_split,22,churn,0.6297047991152898
+38,Random Forest Classifier,gs,min_samples_split,24,churn,0.6275804849272079
+39,Random Forest Classifier,gs,min_samples_split,26,churn,0.6336326584587385
+40,Random Forest Classifier,gs,min_samples_split,28,churn,0.6370246172751876
+41,Random Forest Classifier,gs,min_samples_split,30,churn,0.6386297783009233
+42,Random Forest Classifier,gs,min_samples_split,32,churn,0.6359015766032674
+43,Random Forest Classifier,gs,min_samples_split,34,churn,0.6342818667273538
+44,Random Forest Classifier,gs,min_samples_split,36,churn,0.6415900635965605
+45,Random Forest Classifier,gs,min_samples_split,38,churn,0.6392865405780963
+46,Random Forest Classifier,gs,min_samples_split,40,churn,0.6363768669529638
+47,Random Forest Classifier,gs,min_samples_split,42,churn,0.639234849219603
+48,Random Forest Classifier,gs,min_samples_split,44,churn,0.6336326175439203
+49,Random Forest Classifier,gs,min_samples_split,46,churn,0.6399995626468735
+50,Random Forest Classifier,gs,min_samples_split,48,churn,0.6456034604977906
+51,Random Forest Classifier,roc_auc_score,GS Best,"{'max_depth': 5, 'max_leaf_nodes': 25, 'min_samples_leaf': 39, 'min_samples_split': 46}",churn,0.7286497433484669
+52,Random Forest Classifier,gs,Multi,"{'max_depth': 5, 'max_leaf_nodes': 25, 'min_samples_leaf': 39, 'min_samples_split': 46}",churn,0.7286497433484669
+53,Decision Tree Classifier,roc_auc_score,GS Best,{'criterion': 'gini'},churn,0.5323221240032144
+54,Decision Tree Classifier,gs,criterion,gini,churn,0.5262062210375023
+55,Decision Tree Classifier,gs,criterion,entropy,churn,0.525827853059132
+56,Decision Tree Classifier,roc_auc_score,GS Best,{'max_features': 'auto'},churn,0.5179759100139888
+57,Decision Tree Classifier,gs,max_features,,churn,0.5262062210375023
+58,Decision Tree Classifier,gs,max_features,auto,churn,0.5287278424894936
+59,Decision Tree Classifier,gs,max_features,sqrt,churn,0.5287278424894936
+60,Decision Tree Classifier,gs,max_features,log2,churn,0.5152410780249789
+61,Decision Tree Classifier,roc_auc_score,GS Best,{'max_depth': 5},churn,0.6841392471936609
+62,Decision Tree Classifier,gs,max_depth,,churn,0.5262062210375023
+63,Decision Tree Classifier,gs,max_depth,2,churn,0.6103591731759199
+64,Decision Tree Classifier,gs,max_depth,3,churn,0.6359400897153514
+65,Decision Tree Classifier,gs,max_depth,4,churn,0.6591945807062025
+66,Decision Tree Classifier,gs,max_depth,5,churn,0.6745127974963472
+67,Decision Tree Classifier,roc_auc_score,GS Best,{'min_samples_split': 48},churn,0.5726486535524831
+68,Decision Tree Classifier,gs,min_samples_split,2,churn,0.5262062210375023
+69,Decision Tree Classifier,gs,min_samples_split,4,churn,0.526252048897013
+70,Decision Tree Classifier,gs,min_samples_split,6,churn,0.5295787346641246
+71,Decision Tree Classifier,gs,min_samples_split,8,churn,0.5315980290162168
+72,Decision Tree Classifier,gs,min_samples_split,10,churn,0.5341733045328156
+73,Decision Tree Classifier,gs,min_samples_split,12,churn,0.54186328370974
+74,Decision Tree Classifier,gs,min_samples_split,14,churn,0.5437758056864762
+75,Decision Tree Classifier,gs,min_samples_split,16,churn,0.5440885104368021
+76,Decision Tree Classifier,gs,min_samples_split,18,churn,0.5451624843703965
+77,Decision Tree Classifier,gs,min_samples_split,20,churn,0.548069490584355
+78,Decision Tree Classifier,gs,min_samples_split,22,churn,0.5492794147187944
+79,Decision Tree Classifier,gs,min_samples_split,24,churn,0.5547395971623305
+80,Decision Tree Classifier,gs,min_samples_split,26,churn,0.5524783302694657
+81,Decision Tree Classifier,gs,min_samples_split,28,churn,0.5530870823300896
+82,Decision Tree Classifier,gs,min_samples_split,30,churn,0.555409857387493
+83,Decision Tree Classifier,gs,min_samples_split,32,churn,0.5554877425512896
+84,Decision Tree Classifier,gs,min_samples_split,34,churn,0.5569648233765827
+85,Decision Tree Classifier,gs,min_samples_split,36,churn,0.5582090902572209
+86,Decision Tree Classifier,gs,min_samples_split,38,churn,0.5595270581134696
+87,Decision Tree Classifier,gs,min_samples_split,40,churn,0.5600188520142388
+88,Decision Tree Classifier,gs,min_samples_split,42,churn,0.563064000248937
+89,Decision Tree Classifier,gs,min_samples_split,44,churn,0.5649036534046353
+90,Decision Tree Classifier,gs,min_samples_split,46,churn,0.5625945748906455
+91,Decision Tree Classifier,gs,min_samples_split,48,churn,0.567273503510957
+92,Decision Tree Classifier,roc_auc_score,GS Best,{'min_samples_leaf': 43},churn,0.6214248939394981
+93,Decision Tree Classifier,gs,min_samples_leaf,1,churn,0.5262062210375023
+94,Decision Tree Classifier,gs,min_samples_leaf,3,churn,0.5380865544561764
+95,Decision Tree Classifier,gs,min_samples_leaf,5,churn,0.5411875100619
+96,Decision Tree Classifier,gs,min_samples_leaf,7,churn,0.5582309794975613
+97,Decision Tree Classifier,gs,min_samples_leaf,9,churn,0.5632076720506509
+98,Decision Tree Classifier,gs,min_samples_leaf,11,churn,0.5701341941888697
+99,Decision Tree Classifier,gs,min_samples_leaf,13,churn,0.5744230801035406
+100,Decision Tree Classifier,gs,min_samples_leaf,15,churn,0.582247479633819
+101,Decision Tree Classifier,gs,min_samples_leaf,17,churn,0.5850076592040993
+102,Decision Tree Classifier,gs,min_samples_leaf,19,churn,0.5857997106332202
+103,Decision Tree Classifier,gs,min_samples_leaf,21,churn,0.5974833369203656
+104,Decision Tree Classifier,gs,min_samples_leaf,23,churn,0.594523694693862
+105,Decision Tree Classifier,gs,min_samples_leaf,25,churn,0.5993282273007149
+106,Decision Tree Classifier,gs,min_samples_leaf,27,churn,0.6009955944969799
+107,Decision Tree Classifier,gs,min_samples_leaf,29,churn,0.6028930597622697
+108,Decision Tree Classifier,gs,min_samples_leaf,31,churn,0.6015563313565877
+109,Decision Tree Classifier,gs,min_samples_leaf,33,churn,0.6064764520121377
+110,Decision Tree Classifier,gs,min_samples_leaf,35,churn,0.6132328534333545
+111,Decision Tree Classifier,gs,min_samples_leaf,37,churn,0.6122436634167343
+112,Decision Tree Classifier,gs,min_samples_leaf,39,churn,0.6148276418311529
+113,Decision Tree Classifier,gs,min_samples_leaf,41,churn,0.6181225332397422
+114,Decision Tree Classifier,gs,min_samples_leaf,43,churn,0.6210759954648531
+115,Decision Tree Classifier,roc_auc_score,GS Best,{'max_leaf_nodes': 25},churn,0.7007344532360759
+116,Decision Tree Classifier,gs,max_leaf_nodes,,churn,0.5262062210375023
+117,Decision Tree Classifier,gs,max_leaf_nodes,5,churn,0.652005177045859
+118,Decision Tree Classifier,gs,max_leaf_nodes,10,churn,0.6779906882650973
+119,Decision Tree Classifier,gs,max_leaf_nodes,15,churn,0.6847968077806458
+120,Decision Tree Classifier,gs,max_leaf_nodes,20,churn,0.6850952434841983
+121,Decision Tree Classifier,gs,max_leaf_nodes,25,churn,0.688751828705899
+122,Decision Tree Classifier,gs,max_leaf_nodes,30,churn,0.6854906722729716
+123,Decision Tree Classifier,gs,max_leaf_nodes,35,churn,0.6854501996640426
+124,Decision Tree Classifier,gs,max_leaf_nodes,40,churn,0.6846845192816643
+125,Decision Tree Classifier,roc_auc_score,GS Best,"{'criterion': 'entropy', 'max_depth': 5, 'max_features': None, 'max_leaf_nodes': 15, 'min_samples_split': 46}",churn,0.7024736050725882
+126,Decision Tree Classifier,gs,Multi,"{'criterion': 'entropy', 'max_depth': 5, 'max_features': None, 'max_leaf_nodes': 15, 'min_samples_split': 46}",churn,0.7024736050725882
+127,Gradient Boosting Classifier,roc_auc_score,GS Best,{'n_estimators': 100},churn,0.7374926736404451
+128,Gradient Boosting Classifier,gs,n_estimators,100,churn,0.7265209652686427
+129,Gradient Boosting Classifier,gs,n_estimators,200,churn,0.7254393592739173
+130,Gradient Boosting Classifier,gs,n_estimators,300,churn,0.7216938475800326
+131,Gradient Boosting Classifier,gs,n_estimators,400,churn,0.7195166299395429
+132,Gradient Boosting Classifier,gs,n_estimators,500,churn,0.718056820315825
+133,Gradient Boosting Classifier,roc_auc_score,GS Best,{'max_features': None},churn,0.7374926736404451
+134,Gradient Boosting Classifier,gs,max_features,,churn,0.7265209652686427
+135,Gradient Boosting Classifier,gs,max_features,auto,churn,0.7265209652686427
+136,Gradient Boosting Classifier,gs,max_features,sqrt,churn,0.7168657286004988
+137,Gradient Boosting Classifier,gs,max_features,log2,churn,0.7024085489657556
+138,Gradient Boosting Classifier,roc_auc_score,GS Best,{'max_depth': 2},churn,0.7369791130068066
+139,Gradient Boosting Classifier,gs,max_depth,,churn,0.6496561948411196
+140,Gradient Boosting Classifier,gs,max_depth,2,churn,0.7266448334051407
+141,Gradient Boosting Classifier,gs,max_depth,3,churn,0.7265209652686427
+142,Gradient Boosting Classifier,gs,max_depth,4,churn,0.7264059714397355
+143,Gradient Boosting Classifier,gs,max_depth,5,churn,0.7218701682306831
+144,Gradient Boosting Classifier,roc_auc_score,GS Best,{'min_samples_split': 20},churn,0.7377478083882238
+145,Gradient Boosting Classifier,gs,min_samples_split,2,churn,0.7265209652686427
+146,Gradient Boosting Classifier,gs,min_samples_split,4,churn,0.7262166778012613
+147,Gradient Boosting Classifier,gs,min_samples_split,6,churn,0.7271591336472332
+148,Gradient Boosting Classifier,gs,min_samples_split,8,churn,0.7272278255682685
+149,Gradient Boosting Classifier,gs,min_samples_split,10,churn,0.727020258311807
+150,Gradient Boosting Classifier,gs,min_samples_split,12,churn,0.7267272608105948
+151,Gradient Boosting Classifier,gs,min_samples_split,14,churn,0.7270795597187609
+152,Gradient Boosting Classifier,gs,min_samples_split,16,churn,0.7270826433643184
+153,Gradient Boosting Classifier,gs,min_samples_split,18,churn,0.7274527787834941
+154,Gradient Boosting Classifier,gs,min_samples_split,20,churn,0.7275275965410852
+155,Gradient Boosting Classifier,gs,min_samples_split,22,churn,0.7272203790825779
+156,Gradient Boosting Classifier,gs,min_samples_split,24,churn,0.7267571204173101
+157,Gradient Boosting Classifier,gs,min_samples_split,26,churn,0.7267571204173101
+158,Gradient Boosting Classifier,gs,min_samples_split,28,churn,0.7265595344037977
+159,Gradient Boosting Classifier,gs,min_samples_split,30,churn,0.7265488670863832
+160,Gradient Boosting Classifier,gs,min_samples_split,32,churn,0.7264134656750901
+161,Gradient Boosting Classifier,gs,min_samples_split,34,churn,0.7264449127603685
+162,Gradient Boosting Classifier,gs,min_samples_split,36,churn,0.7263392660901085
+163,Gradient Boosting Classifier,gs,min_samples_split,38,churn,0.7265297954454129
+164,Gradient Boosting Classifier,gs,min_samples_split,40,churn,0.7263261211224762
+165,Gradient Boosting Classifier,gs,min_samples_split,42,churn,0.72624839006196
+166,Gradient Boosting Classifier,gs,min_samples_split,44,churn,0.7261330609496839
+167,Gradient Boosting Classifier,gs,min_samples_split,46,churn,0.7259303122237982
+168,Gradient Boosting Classifier,gs,min_samples_split,48,churn,0.7271451521274314
+169,Gradient Boosting Classifier,roc_auc_score,GS Best,{'loss': 'exponential'},churn,0.7392952872047419
+170,Gradient Boosting Classifier,gs,loss,deviance,churn,0.7265209652686427
+171,Gradient Boosting Classifier,gs,loss,exponential,churn,0.7283428081182503
+172,Gradient Boosting Classifier,roc_auc_score,GS Best,{'min_samples_leaf': 33},churn,0.737150538372953
+173,Gradient Boosting Classifier,gs,min_samples_leaf,1,churn,0.7265209652686427
+174,Gradient Boosting Classifier,gs,min_samples_leaf,3,churn,0.726847199169809
+175,Gradient Boosting Classifier,gs,min_samples_leaf,5,churn,0.7270830999389934
+176,Gradient Boosting Classifier,gs,min_samples_leaf,7,churn,0.7287161848591008
+177,Gradient Boosting Classifier,gs,min_samples_leaf,9,churn,0.7265940083137337
+178,Gradient Boosting Classifier,gs,min_samples_leaf,11,churn,0.7283407524274832
+179,Gradient Boosting Classifier,gs,min_samples_leaf,13,churn,0.7284620116725998
+180,Gradient Boosting Classifier,gs,min_samples_leaf,15,churn,0.7275372601740897
+181,Gradient Boosting Classifier,gs,min_samples_leaf,17,churn,0.7278531354244725
+182,Gradient Boosting Classifier,gs,min_samples_leaf,19,churn,0.728609966271229
+183,Gradient Boosting Classifier,gs,min_samples_leaf,21,churn,0.7283829566582994
+184,Gradient Boosting Classifier,gs,min_samples_leaf,23,churn,0.7280781292167574
+185,Gradient Boosting Classifier,gs,min_samples_leaf,25,churn,0.7272303958709907
+186,Gradient Boosting Classifier,gs,min_samples_leaf,27,churn,0.7281217170702038
+187,Gradient Boosting Classifier,gs,min_samples_leaf,29,churn,0.7281922949778612
+188,Gradient Boosting Classifier,gs,min_samples_leaf,31,churn,0.7277293384136877
+189,Gradient Boosting Classifier,gs,min_samples_leaf,33,churn,0.7292988490405089
+190,Gradient Boosting Classifier,gs,min_samples_leaf,35,churn,0.7278254222668865
+191,Gradient Boosting Classifier,gs,min_samples_leaf,37,churn,0.7275599938988812
+192,Gradient Boosting Classifier,gs,min_samples_leaf,39,churn,0.7280471466821986
+193,Gradient Boosting Classifier,gs,min_samples_leaf,41,churn,0.7280794692887046
+194,Gradient Boosting Classifier,gs,min_samples_leaf,43,churn,0.7278928322879096
+195,Gradient Boosting Classifier,roc_auc_score,GS Best,{'max_leaf_nodes': 5},churn,0.7389494315202882
+196,Gradient Boosting Classifier,gs,max_leaf_nodes,,churn,0.7265209652686427
+197,Gradient Boosting Classifier,gs,max_leaf_nodes,5,churn,0.7272820356814362
+198,Gradient Boosting Classifier,gs,max_leaf_nodes,10,churn,0.726183408092233
+199,Gradient Boosting Classifier,gs,max_leaf_nodes,15,churn,0.7248499650952832
+200,Gradient Boosting Classifier,gs,max_leaf_nodes,20,churn,0.7248327857371627
+201,Gradient Boosting Classifier,gs,max_leaf_nodes,25,churn,0.7248327857371627
+202,Gradient Boosting Classifier,gs,max_leaf_nodes,30,churn,0.7248327857371627
+203,Gradient Boosting Classifier,gs,max_leaf_nodes,35,churn,0.7248327857371627
+204,Gradient Boosting Classifier,gs,max_leaf_nodes,40,churn,0.7248327857371627
+205,Gradient Boosting Classifier,roc_auc_score,GS Best,{'subsample': 1.0},churn,0.7374926736404451
+206,Gradient Boosting Classifier,gs,subsample,0.1,churn,0.6830548411962504
+207,Gradient Boosting Classifier,gs,subsample,0.2,churn,0.7015123045015726
+208,Gradient Boosting Classifier,gs,subsample,0.3,churn,0.7128476920327209
+209,Gradient Boosting Classifier,gs,subsample,0.4,churn,0.7174199284813577
+210,Gradient Boosting Classifier,gs,subsample,0.5,churn,0.7202726361510674
+211,Gradient Boosting Classifier,gs,subsample,0.6,churn,0.7215836924462362
+212,Gradient Boosting Classifier,gs,subsample,0.7,churn,0.7238814431852726
+213,Gradient Boosting Classifier,gs,subsample,0.8,churn,0.7252870185993716
+214,Gradient Boosting Classifier,gs,subsample,0.9,churn,0.7263758324425562
+215,Gradient Boosting Classifier,gs,subsample,1.0,churn,0.7265209652686427
+216,Gradient Boosting Classifier,roc_auc_score,GS Best,"{'max_depth': 3, 'max_leaf_nodes': 5, 'min_samples_leaf': 11, 'min_samples_split': 48}",churn,0.7401734487006014
+217,Gradient Boosting Classifier,gs,Multi,"{'max_depth': 3, 'max_leaf_nodes': 5, 'min_samples_leaf': 11, 'min_samples_split': 48}",churn,0.7401734487006014
+218,Random Forest Classifier,roc_auc_score,GS Best,{'criterion': 'gini'},appetency,0.5949632207271237
+219,Random Forest Classifier,gs,criterion,gini,appetency,0.6054023446284938
+220,Random Forest Classifier,gs,criterion,entropy,appetency,0.600702116167955
+221,Random Forest Classifier,roc_auc_score,GS Best,{'n_estimators': 700},appetency,0.7603616591190435
+222,Random Forest Classifier,gs,n_estimators,400,appetency,0.7629382539853423
+223,Random Forest Classifier,gs,n_estimators,500,appetency,0.7668375718727626
+224,Random Forest Classifier,gs,n_estimators,600,appetency,0.7670222193766034
+225,Random Forest Classifier,gs,n_estimators,700,appetency,0.7700016992307557
+226,Random Forest Classifier,roc_auc_score,GS Best,{'max_features': None},appetency,0.6475010017483027
+227,Random Forest Classifier,gs,max_features,,appetency,0.6314007074345783
+228,Random Forest Classifier,gs,max_features,auto,appetency,0.6054023446284938
+229,Random Forest Classifier,gs,max_features,sqrt,appetency,0.6054023446284938
+230,Random Forest Classifier,gs,max_features,log2,appetency,0.5705860587931518
+231,Random Forest Classifier,roc_auc_score,GS Best,{'max_depth': 4},appetency,0.7919413546323304
+232,Random Forest Classifier,gs,max_depth,,appetency,0.6054023446284938
+233,Random Forest Classifier,gs,max_depth,2,appetency,0.7776591374439531
+234,Random Forest Classifier,gs,max_depth,3,appetency,0.7904916317235959
+235,Random Forest Classifier,gs,max_depth,4,appetency,0.79373949839451
+236,Random Forest Classifier,gs,max_depth,5,appetency,0.7919404680655072
+237,Random Forest Classifier,roc_auc_score,GS Best,{'min_samples_leaf': 39},appetency,0.7712026464063539
+238,Random Forest Classifier,gs,min_samples_leaf,29,appetency,0.7455870571183526
+239,Random Forest Classifier,gs,min_samples_leaf,31,appetency,0.7423050324474637
+240,Random Forest Classifier,gs,min_samples_leaf,33,appetency,0.7534388207401101
+241,Random Forest Classifier,gs,min_samples_leaf,35,appetency,0.745894599534572
+242,Random Forest Classifier,gs,min_samples_leaf,37,appetency,0.7455026432757302
+243,Random Forest Classifier,gs,min_samples_leaf,39,appetency,0.7574544562330994
+244,Random Forest Classifier,gs,min_samples_leaf,41,appetency,0.7547195061330839
+245,Random Forest Classifier,gs,min_samples_leaf,43,appetency,0.7518342830276795
+246,Random Forest Classifier,roc_auc_score,GS Best,{'max_leaf_nodes': 25},appetency,0.7874958866759642
+247,Random Forest Classifier,gs,max_leaf_nodes,,appetency,0.6054023446284938
+248,Random Forest Classifier,gs,max_leaf_nodes,20,appetency,0.7878316108864846
+249,Random Forest Classifier,gs,max_leaf_nodes,25,appetency,0.788615833152317
+250,Random Forest Classifier,gs,max_leaf_nodes,30,appetency,0.7833984949073697
+251,Random Forest Classifier,gs,max_leaf_nodes,35,appetency,0.7831723177804681
+252,Random Forest Classifier,gs,max_leaf_nodes,40,appetency,0.7829997069480831
+253,Random Forest Classifier,roc_auc_score,GS Best,{'min_samples_split': 48},appetency,0.714554339528876
+254,Random Forest Classifier,gs,min_samples_split,20,appetency,0.6897251073431158
+255,Random Forest Classifier,gs,min_samples_split,22,appetency,0.7030527327711066
+256,Random Forest Classifier,gs,min_samples_split,24,appetency,0.7013670551765937
+257,Random Forest Classifier,gs,min_samples_split,26,appetency,0.6982256253675998
+258,Random Forest Classifier,gs,min_samples_split,28,appetency,0.7094838551973344
+259,Random Forest Classifier,gs,min_samples_split,30,appetency,0.6979744157447763
+260,Random Forest Classifier,gs,min_samples_split,32,appetency,0.6975861897815768
+261,Random Forest Classifier,gs,min_samples_split,34,appetency,0.7136883602829206
+262,Random Forest Classifier,gs,min_samples_split,36,appetency,0.7073236605313732
+263,Random Forest Classifier,gs,min_samples_split,38,appetency,0.6897994063113511
+264,Random Forest Classifier,gs,min_samples_split,40,appetency,0.7109073767336569
+265,Random Forest Classifier,gs,min_samples_split,42,appetency,0.7125871229475244
+266,Random Forest Classifier,gs,min_samples_split,44,appetency,0.7017682676232369
+267,Random Forest Classifier,gs,min_samples_split,46,appetency,0.7169023461010573
+268,Random Forest Classifier,gs,min_samples_split,48,appetency,0.7216705040885661
+269,Random Forest Classifier,roc_auc_score,GS Best,"{'max_depth': 5, 'max_leaf_nodes': 25, 'min_samples_leaf': 39, 'min_samples_split': 46}",appetency,0.8052346665353388
+270,Random Forest Classifier,gs,Multi,"{'max_depth': 5, 'max_leaf_nodes': 25, 'min_samples_leaf': 39, 'min_samples_split': 46}",appetency,0.8052346665353388
+271,Decision Tree Classifier,roc_auc_score,GS Best,{'criterion': 'entropy'},appetency,0.5195251377264007
+272,Decision Tree Classifier,gs,criterion,gini,appetency,0.5243415723264259
+273,Decision Tree Classifier,gs,criterion,entropy,appetency,0.5248060820049424
+274,Decision Tree Classifier,roc_auc_score,GS Best,{'max_features': None},appetency,0.5129611679825574
+275,Decision Tree Classifier,gs,max_features,,appetency,0.5243415723264259
+276,Decision Tree Classifier,gs,max_features,auto,appetency,0.520002572005036
+277,Decision Tree Classifier,gs,max_features,sqrt,appetency,0.520002572005036
+278,Decision Tree Classifier,gs,max_features,log2,appetency,0.5120306043688355
+279,Decision Tree Classifier,roc_auc_score,GS Best,{'max_depth': 4},appetency,0.7882835742379437
+280,Decision Tree Classifier,gs,max_depth,,appetency,0.5243415723264259
+281,Decision Tree Classifier,gs,max_depth,2,appetency,0.7494225659278452
+282,Decision Tree Classifier,gs,max_depth,3,appetency,0.788813731261239
+283,Decision Tree Classifier,gs,max_depth,4,appetency,0.7959346802666155
+284,Decision Tree Classifier,gs,max_depth,5,appetency,0.795275028142635
+285,Decision Tree Classifier,roc_auc_score,GS Best,{'min_samples_split': 46},appetency,0.5473018273232166
+286,Decision Tree Classifier,gs,min_samples_split,2,appetency,0.5243415723264259
+287,Decision Tree Classifier,gs,min_samples_split,4,appetency,0.5310912438618643
+288,Decision Tree Classifier,gs,min_samples_split,6,appetency,0.5373722154529061
+289,Decision Tree Classifier,gs,min_samples_split,8,appetency,0.5339167510645731
+290,Decision Tree Classifier,gs,min_samples_split,10,appetency,0.5406670509639002
+291,Decision Tree Classifier,gs,min_samples_split,12,appetency,0.5454775303589132
+292,Decision Tree Classifier,gs,min_samples_split,14,appetency,0.5497001097759494
+293,Decision Tree Classifier,gs,min_samples_split,16,appetency,0.5520500513866713
+294,Decision Tree Classifier,gs,min_samples_split,18,appetency,0.5555249747967745
+295,Decision Tree Classifier,gs,min_samples_split,20,appetency,0.5538220898733361
+296,Decision Tree Classifier,gs,min_samples_split,22,appetency,0.5590314962849586
+297,Decision Tree Classifier,gs,min_samples_split,24,appetency,0.5574601596343315
+298,Decision Tree Classifier,gs,min_samples_split,26,appetency,0.5590974163475707
+299,Decision Tree Classifier,gs,min_samples_split,28,appetency,0.559944877872477
+300,Decision Tree Classifier,gs,min_samples_split,30,appetency,0.5608974013463871
+301,Decision Tree Classifier,gs,min_samples_split,32,appetency,0.5613989319145496
+302,Decision Tree Classifier,gs,min_samples_split,34,appetency,0.564912870281819
+303,Decision Tree Classifier,gs,min_samples_split,36,appetency,0.5627102232858305
+304,Decision Tree Classifier,gs,min_samples_split,38,appetency,0.5647592609010617
+305,Decision Tree Classifier,gs,min_samples_split,40,appetency,0.5662908687740673
+306,Decision Tree Classifier,gs,min_samples_split,42,appetency,0.5673264721480922
+307,Decision Tree Classifier,gs,min_samples_split,44,appetency,0.5707226800276154
+308,Decision Tree Classifier,gs,min_samples_split,46,appetency,0.5710813129515305
+309,Decision Tree Classifier,gs,min_samples_split,48,appetency,0.5701263942442557
+310,Decision Tree Classifier,roc_auc_score,GS Best,{'min_samples_leaf': 43},appetency,0.6353594205753506
+311,Decision Tree Classifier,gs,min_samples_leaf,1,appetency,0.5243415723264259
+312,Decision Tree Classifier,gs,min_samples_leaf,3,appetency,0.5350081028890642
+313,Decision Tree Classifier,gs,min_samples_leaf,5,appetency,0.5499045434020283
+314,Decision Tree Classifier,gs,min_samples_leaf,7,appetency,0.5613053788836261
+315,Decision Tree Classifier,gs,min_samples_leaf,9,appetency,0.5691418094368194
+316,Decision Tree Classifier,gs,min_samples_leaf,11,appetency,0.5774069106385075
+317,Decision Tree Classifier,gs,min_samples_leaf,13,appetency,0.5896672508539483
+318,Decision Tree Classifier,gs,min_samples_leaf,15,appetency,0.5825273922880715
+319,Decision Tree Classifier,gs,min_samples_leaf,17,appetency,0.5820862700809767
+320,Decision Tree Classifier,gs,min_samples_leaf,19,appetency,0.5879650364998481
+321,Decision Tree Classifier,gs,min_samples_leaf,21,appetency,0.6073715946980194
+322,Decision Tree Classifier,gs,min_samples_leaf,23,appetency,0.614670871896264
+323,Decision Tree Classifier,gs,min_samples_leaf,25,appetency,0.6173609913488254
+324,Decision Tree Classifier,gs,min_samples_leaf,27,appetency,0.6242584355708115
+325,Decision Tree Classifier,gs,min_samples_leaf,29,appetency,0.6245240688031003
+326,Decision Tree Classifier,gs,min_samples_leaf,31,appetency,0.629244040735813
+327,Decision Tree Classifier,gs,min_samples_leaf,33,appetency,0.6340164433515666
+328,Decision Tree Classifier,gs,min_samples_leaf,35,appetency,0.6446358220493612
+329,Decision Tree Classifier,gs,min_samples_leaf,37,appetency,0.6356610434795674
+330,Decision Tree Classifier,gs,min_samples_leaf,39,appetency,0.6433294014718415
+331,Decision Tree Classifier,gs,min_samples_leaf,41,appetency,0.6467312932834188
+332,Decision Tree Classifier,gs,min_samples_leaf,43,appetency,0.6494453729368344
+333,Decision Tree Classifier,roc_auc_score,GS Best,{'max_leaf_nodes': 5},appetency,0.7474242756632246
+334,Decision Tree Classifier,gs,max_leaf_nodes,,appetency,0.5243415723264259
+335,Decision Tree Classifier,gs,max_leaf_nodes,5,appetency,0.7568917036098081
+336,Decision Tree Classifier,gs,max_leaf_nodes,10,appetency,0.7565285379021233
+337,Decision Tree Classifier,gs,max_leaf_nodes,15,appetency,0.756659944289369
+338,Decision Tree Classifier,gs,max_leaf_nodes,20,appetency,0.7565039571016682
+339,Decision Tree Classifier,gs,max_leaf_nodes,25,appetency,0.7554668107174854
+340,Decision Tree Classifier,gs,max_leaf_nodes,30,appetency,0.7539351767810093
+341,Decision Tree Classifier,gs,max_leaf_nodes,35,appetency,0.7525869611249476
+342,Decision Tree Classifier,gs,max_leaf_nodes,40,appetency,0.7515066453668268
+343,Decision Tree Classifier,roc_auc_score,GS Best,"{'criterion': 'entropy', 'max_depth': 2, 'max_features': None, 'max_leaf_nodes': 10, 'min_samples_split': 46}",appetency,0.7968045908054056
+344,Decision Tree Classifier,gs,Multi,"{'criterion': 'entropy', 'max_depth': 2, 'max_features': None, 'max_leaf_nodes': 10, 'min_samples_split': 46}",appetency,0.7968045908054056
+345,Gradient Boosting Classifier,roc_auc_score,GS Best,{'n_estimators': 100},appetency,0.8125443511469179
+346,Gradient Boosting Classifier,gs,n_estimators,100,appetency,0.8205907650671725
+347,Gradient Boosting Classifier,gs,n_estimators,200,appetency,0.813833981645892
+348,Gradient Boosting Classifier,gs,n_estimators,300,appetency,0.8098188070000195
+349,Gradient Boosting Classifier,gs,n_estimators,400,appetency,0.8048547479063884
+350,Gradient Boosting Classifier,gs,n_estimators,500,appetency,0.8014415571212598
+351,Gradient Boosting Classifier,roc_auc_score,GS Best,{'max_features': None},appetency,0.8125443511469179
+352,Gradient Boosting Classifier,gs,max_features,,appetency,0.8205907650671725
+353,Gradient Boosting Classifier,gs,max_features,auto,appetency,0.8205907650671725
+354,Gradient Boosting Classifier,gs,max_features,sqrt,appetency,0.8184049013201479
+355,Gradient Boosting Classifier,gs,max_features,log2,appetency,0.8175451572601632
+356,Gradient Boosting Classifier,roc_auc_score,GS Best,{'max_depth': 2},appetency,0.8124150752486463
+357,Gradient Boosting Classifier,gs,max_depth,,appetency,0.8040155904765874
+358,Gradient Boosting Classifier,gs,max_depth,2,appetency,0.8232495985651966
+359,Gradient Boosting Classifier,gs,max_depth,3,appetency,0.8205907650671725
+360,Gradient Boosting Classifier,gs,max_depth,4,appetency,0.8146101968191507
+361,Gradient Boosting Classifier,gs,max_depth,5,appetency,0.8126999539531662
+362,Gradient Boosting Classifier,roc_auc_score,GS Best,{'min_samples_split': 16},appetency,0.8114068911329045
+363,Gradient Boosting Classifier,gs,min_samples_split,2,appetency,0.8205907650671725
+364,Gradient Boosting Classifier,gs,min_samples_split,4,appetency,0.8196325352575741
+365,Gradient Boosting Classifier,gs,min_samples_split,6,appetency,0.8208298965870494
+366,Gradient Boosting Classifier,gs,min_samples_split,8,appetency,0.8195931466841996
+367,Gradient Boosting Classifier,gs,min_samples_split,10,appetency,0.8201839023721454
+368,Gradient Boosting Classifier,gs,min_samples_split,12,appetency,0.8198059992929649
+369,Gradient Boosting Classifier,gs,min_samples_split,14,appetency,0.8214061080350111
+370,Gradient Boosting Classifier,gs,min_samples_split,16,appetency,0.8219619247780772
+371,Gradient Boosting Classifier,gs,min_samples_split,18,appetency,0.8210246991534939
+372,Gradient Boosting Classifier,gs,min_samples_split,20,appetency,0.8211907782479458
+373,Gradient Boosting Classifier,gs,min_samples_split,22,appetency,0.8211647899171554
+374,Gradient Boosting Classifier,gs,min_samples_split,24,appetency,0.8211647899171554
+375,Gradient Boosting Classifier,gs,min_samples_split,26,appetency,0.8211437634437765
+376,Gradient Boosting Classifier,gs,min_samples_split,28,appetency,0.8212641709805379
+377,Gradient Boosting Classifier,gs,min_samples_split,30,appetency,0.8207505112775569
+378,Gradient Boosting Classifier,gs,min_samples_split,32,appetency,0.8205588729630078
+379,Gradient Boosting Classifier,gs,min_samples_split,34,appetency,0.8215402084777791
+380,Gradient Boosting Classifier,gs,min_samples_split,36,appetency,0.8215350820018236
+381,Gradient Boosting Classifier,gs,min_samples_split,38,appetency,0.820928399479025
+382,Gradient Boosting Classifier,gs,min_samples_split,40,appetency,0.8211075279204803
+383,Gradient Boosting Classifier,gs,min_samples_split,42,appetency,0.8211144299194286
+384,Gradient Boosting Classifier,gs,min_samples_split,44,appetency,0.8210624492398492
+385,Gradient Boosting Classifier,gs,min_samples_split,46,appetency,0.8204596566910748
+386,Gradient Boosting Classifier,gs,min_samples_split,48,appetency,0.8204578233476041
+387,Gradient Boosting Classifier,roc_auc_score,GS Best,{'loss': 'exponential'},appetency,0.8115442817520634
+388,Gradient Boosting Classifier,gs,loss,deviance,appetency,0.8205907650671725
+389,Gradient Boosting Classifier,gs,loss,exponential,appetency,0.8255860004602145
+390,Gradient Boosting Classifier,roc_auc_score,GS Best,{'min_samples_leaf': 17},appetency,0.8108383010348788
+391,Gradient Boosting Classifier,gs,min_samples_leaf,1,appetency,0.8205907650671725
+392,Gradient Boosting Classifier,gs,min_samples_leaf,3,appetency,0.8211039374190685
+393,Gradient Boosting Classifier,gs,min_samples_leaf,5,appetency,0.8185425474323588
+394,Gradient Boosting Classifier,gs,min_samples_leaf,7,appetency,0.8203298521677818
+395,Gradient Boosting Classifier,gs,min_samples_leaf,9,appetency,0.8235408499866481
+396,Gradient Boosting Classifier,gs,min_samples_leaf,11,appetency,0.8203878482478095
+397,Gradient Boosting Classifier,gs,min_samples_leaf,13,appetency,0.8211777072918514
+398,Gradient Boosting Classifier,gs,min_samples_leaf,15,appetency,0.8214372132084414
+399,Gradient Boosting Classifier,gs,min_samples_leaf,17,appetency,0.8244622848407869
+400,Gradient Boosting Classifier,gs,min_samples_leaf,19,appetency,0.8220061790897807
+401,Gradient Boosting Classifier,gs,min_samples_leaf,21,appetency,0.8222789028499452
+402,Gradient Boosting Classifier,gs,min_samples_leaf,23,appetency,0.8230053520140724
+403,Gradient Boosting Classifier,gs,min_samples_leaf,25,appetency,0.8240436361957525
+404,Gradient Boosting Classifier,gs,min_samples_leaf,27,appetency,0.8231339288453894
+405,Gradient Boosting Classifier,gs,min_samples_leaf,29,appetency,0.8222612809796869
+406,Gradient Boosting Classifier,gs,min_samples_leaf,31,appetency,0.8231661352797032
+407,Gradient Boosting Classifier,gs,min_samples_leaf,33,appetency,0.8230626326022233
+408,Gradient Boosting Classifier,gs,min_samples_leaf,35,appetency,0.8224277142960951
+409,Gradient Boosting Classifier,gs,min_samples_leaf,37,appetency,0.8237305198319492
+410,Gradient Boosting Classifier,gs,min_samples_leaf,39,appetency,0.8223311687662371
+411,Gradient Boosting Classifier,gs,min_samples_leaf,41,appetency,0.8223715942590036
+412,Gradient Boosting Classifier,gs,min_samples_leaf,43,appetency,0.8230788835075779
+413,Gradient Boosting Classifier,roc_auc_score,GS Best,{'max_leaf_nodes': 5},appetency,0.8072152180677339
+414,Gradient Boosting Classifier,gs,max_leaf_nodes,,appetency,0.8205907650671725
+415,Gradient Boosting Classifier,gs,max_leaf_nodes,5,appetency,0.8230596410460365
+416,Gradient Boosting Classifier,gs,max_leaf_nodes,10,appetency,0.8189808024600752
+417,Gradient Boosting Classifier,gs,max_leaf_nodes,15,appetency,0.8164501457802279
+418,Gradient Boosting Classifier,gs,max_leaf_nodes,20,appetency,0.8171196076659649
+419,Gradient Boosting Classifier,gs,max_leaf_nodes,25,appetency,0.8171196076659649
+420,Gradient Boosting Classifier,gs,max_leaf_nodes,30,appetency,0.8171196076659649
+421,Gradient Boosting Classifier,gs,max_leaf_nodes,35,appetency,0.8171196076659649
+422,Gradient Boosting Classifier,gs,max_leaf_nodes,40,appetency,0.8171196076659649
+423,Gradient Boosting Classifier,roc_auc_score,GS Best,{'subsample': 1.0},appetency,0.8125443511469179
+424,Gradient Boosting Classifier,gs,subsample,0.1,appetency,0.765392869083673
+425,Gradient Boosting Classifier,gs,subsample,0.2,appetency,0.7932150405557046
+426,Gradient Boosting Classifier,gs,subsample,0.3,appetency,0.7991945340632786
+427,Gradient Boosting Classifier,gs,subsample,0.4,appetency,0.8094619229139894
+428,Gradient Boosting Classifier,gs,subsample,0.5,appetency,0.8117476891420147
+429,Gradient Boosting Classifier,gs,subsample,0.6,appetency,0.8127460749997177
+430,Gradient Boosting Classifier,gs,subsample,0.7,appetency,0.8163724625582219
+431,Gradient Boosting Classifier,gs,subsample,0.8,appetency,0.815668697538788
+432,Gradient Boosting Classifier,gs,subsample,0.9,appetency,0.8172151321961024
+433,Gradient Boosting Classifier,gs,subsample,1.0,appetency,0.8205907650671725
+434,Gradient Boosting Classifier,roc_auc_score,GS Best,"{'max_depth': 2, 'max_leaf_nodes': 5, 'min_samples_leaf': 14, 'min_samples_split': 48}",appetency,0.8139118215253884
+435,Gradient Boosting Classifier,gs,Multi,"{'max_depth': 2, 'max_leaf_nodes': 5, 'min_samples_leaf': 14, 'min_samples_split': 48}",appetency,0.8139118215253884
+436,Random Forest Classifier,roc_auc_score,GS Best,{'criterion': 'gini'},upselling,0.7810937786135128
+437,Random Forest Classifier,gs,criterion,gini,upselling,0.7702988272498486
+438,Random Forest Classifier,gs,criterion,entropy,upselling,0.7694043982779819
+439,Random Forest Classifier,roc_auc_score,GS Best,{'n_estimators': 600},upselling,0.8399194085472823
+440,Random Forest Classifier,gs,n_estimators,400,upselling,0.8309840674787418
+441,Random Forest Classifier,gs,n_estimators,500,upselling,0.8315153089376643
+442,Random Forest Classifier,gs,n_estimators,600,upselling,0.8323947940821292
+443,Random Forest Classifier,gs,n_estimators,700,upselling,0.8322773550394489
+444,Random Forest Classifier,roc_auc_score,GS Best,{'max_features': None},upselling,0.8048132402184941
+445,Random Forest Classifier,gs,max_features,,upselling,0.7778815592117194
+446,Random Forest Classifier,gs,max_features,auto,upselling,0.7702988272498486
+447,Random Forest Classifier,gs,max_features,sqrt,upselling,0.7702988272498486
+448,Random Forest Classifier,gs,max_features,log2,upselling,0.7546763632536965
+449,Random Forest Classifier,roc_auc_score,GS Best,{'max_depth': 5},upselling,0.8297678970585842
+450,Random Forest Classifier,gs,max_depth,,upselling,0.7702988272498486
+451,Random Forest Classifier,gs,max_depth,2,upselling,0.8214454860145405
+452,Random Forest Classifier,gs,max_depth,3,upselling,0.8280473694075114
+453,Random Forest Classifier,gs,max_depth,4,upselling,0.8291199599892396
+454,Random Forest Classifier,gs,max_depth,5,upselling,0.836550114864299
+455,Random Forest Classifier,roc_auc_score,GS Best,{'min_samples_leaf': 31},upselling,0.8393852764727976
+456,Random Forest Classifier,gs,min_samples_leaf,29,upselling,0.8308947063340532
+457,Random Forest Classifier,gs,min_samples_leaf,31,upselling,0.83444415532042
+458,Random Forest Classifier,gs,min_samples_leaf,33,upselling,0.8258933296738897
+459,Random Forest Classifier,gs,min_samples_leaf,35,upselling,0.8331759899801936
+460,Random Forest Classifier,gs,min_samples_leaf,37,upselling,0.8271970023448301
+461,Random Forest Classifier,gs,min_samples_leaf,39,upselling,0.8282279608380686
+462,Random Forest Classifier,gs,min_samples_leaf,41,upselling,0.8320417179212592
+463,Random Forest Classifier,gs,min_samples_leaf,43,upselling,0.8283953570642674
+464,Random Forest Classifier,roc_auc_score,GS Best,{'max_leaf_nodes': 40},upselling,0.8459913391760003
+465,Random Forest Classifier,gs,max_leaf_nodes,,upselling,0.7702988272498486
+466,Random Forest Classifier,gs,max_leaf_nodes,20,upselling,0.8337907141499129
+467,Random Forest Classifier,gs,max_leaf_nodes,25,upselling,0.8371681266180909
+468,Random Forest Classifier,gs,max_leaf_nodes,30,upselling,0.8374229958923127
+469,Random Forest Classifier,gs,max_leaf_nodes,35,upselling,0.8386681138336703
+470,Random Forest Classifier,gs,max_leaf_nodes,40,upselling,0.8395402633364787
+471,Random Forest Classifier,roc_auc_score,GS Best,{'min_samples_split': 46},upselling,0.8222887839848543
+472,Random Forest Classifier,gs,min_samples_split,20,upselling,0.7975622702451499
+473,Random Forest Classifier,gs,min_samples_split,22,upselling,0.8034999317093717
+474,Random Forest Classifier,gs,min_samples_split,24,upselling,0.8016199653236405
+475,Random Forest Classifier,gs,min_samples_split,26,upselling,0.8012846939975393
+476,Random Forest Classifier,gs,min_samples_split,28,upselling,0.8035219658212048
+477,Random Forest Classifier,gs,min_samples_split,30,upselling,0.8056854610602268
+478,Random Forest Classifier,gs,min_samples_split,32,upselling,0.8037329871046194
+479,Random Forest Classifier,gs,min_samples_split,34,upselling,0.8068651922419706
+480,Random Forest Classifier,gs,min_samples_split,36,upselling,0.811175028494666
+481,Random Forest Classifier,gs,min_samples_split,38,upselling,0.808291033330154
+482,Random Forest Classifier,gs,min_samples_split,40,upselling,0.8088616361176459
+483,Random Forest Classifier,gs,min_samples_split,42,upselling,0.8070061463043535
+484,Random Forest Classifier,gs,min_samples_split,44,upselling,0.8061826713943812
+485,Random Forest Classifier,gs,min_samples_split,46,upselling,0.8117173408199859
+486,Random Forest Classifier,gs,min_samples_split,48,upselling,0.806224310160807
+487,Random Forest Classifier,roc_auc_score,GS Best,"{'max_depth': 5, 'max_leaf_nodes': 35, 'min_samples_leaf': 31, 'min_samples_split': 46}",upselling,0.8666238002173817
+488,Random Forest Classifier,gs,Multi,"{'max_depth': 5, 'max_leaf_nodes': 35, 'min_samples_leaf': 31, 'min_samples_split': 46}",upselling,0.8666238002173817
+489,Decision Tree Classifier,roc_auc_score,GS Best,{'criterion': 'entropy'},upselling,0.7038550099629338
+490,Decision Tree Classifier,gs,criterion,gini,upselling,0.6748744429256032
+491,Decision Tree Classifier,gs,criterion,entropy,upselling,0.6824685437923494
+492,Decision Tree Classifier,roc_auc_score,GS Best,{'max_features': None},upselling,0.6913708083746474
+493,Decision Tree Classifier,gs,max_features,,upselling,0.6748744429256032
+494,Decision Tree Classifier,gs,max_features,auto,upselling,0.628333376016161
+495,Decision Tree Classifier,gs,max_features,sqrt,upselling,0.628333376016161
+496,Decision Tree Classifier,gs,max_features,log2,upselling,0.6045767655340277
+497,Decision Tree Classifier,roc_auc_score,GS Best,{'max_depth': 5},upselling,0.8614520176224875
+498,Decision Tree Classifier,gs,max_depth,,upselling,0.6748744429256032
+499,Decision Tree Classifier,gs,max_depth,2,upselling,0.7963394023822689
+500,Decision Tree Classifier,gs,max_depth,3,upselling,0.8363662877262854
+501,Decision Tree Classifier,gs,max_depth,4,upselling,0.8442319334367524
+502,Decision Tree Classifier,gs,max_depth,5,upselling,0.8445022381724113
+503,Decision Tree Classifier,roc_auc_score,GS Best,{'min_samples_split': 48},upselling,0.7593612156438364
+504,Decision Tree Classifier,gs,min_samples_split,2,upselling,0.6748744429256032
+505,Decision Tree Classifier,gs,min_samples_split,4,upselling,0.684165866836706
+506,Decision Tree Classifier,gs,min_samples_split,6,upselling,0.690477721966689
+507,Decision Tree Classifier,gs,min_samples_split,8,upselling,0.6985850528115934
+508,Decision Tree Classifier,gs,min_samples_split,10,upselling,0.7028380104277007
+509,Decision Tree Classifier,gs,min_samples_split,12,upselling,0.7050943762660792
+510,Decision Tree Classifier,gs,min_samples_split,14,upselling,0.7086362405916469
+511,Decision Tree Classifier,gs,min_samples_split,16,upselling,0.7142070488803833
+512,Decision Tree Classifier,gs,min_samples_split,18,upselling,0.7160037082003639
+513,Decision Tree Classifier,gs,min_samples_split,20,upselling,0.7171572075995529
+514,Decision Tree Classifier,gs,min_samples_split,22,upselling,0.7194544009106578
+515,Decision Tree Classifier,gs,min_samples_split,24,upselling,0.7232424928615414
+516,Decision Tree Classifier,gs,min_samples_split,26,upselling,0.7272657070595511
+517,Decision Tree Classifier,gs,min_samples_split,28,upselling,0.7275162315962879
+518,Decision Tree Classifier,gs,min_samples_split,30,upselling,0.7282272108408158
+519,Decision Tree Classifier,gs,min_samples_split,32,upselling,0.7291792143241499
+520,Decision Tree Classifier,gs,min_samples_split,34,upselling,0.7289180158969492
+521,Decision Tree Classifier,gs,min_samples_split,36,upselling,0.7307728598936089
+522,Decision Tree Classifier,gs,min_samples_split,38,upselling,0.7326780092493337
+523,Decision Tree Classifier,gs,min_samples_split,40,upselling,0.7324282489750159
+524,Decision Tree Classifier,gs,min_samples_split,42,upselling,0.7332094122617625
+525,Decision Tree Classifier,gs,min_samples_split,44,upselling,0.7331607224125797
+526,Decision Tree Classifier,gs,min_samples_split,46,upselling,0.7327285685801614
+527,Decision Tree Classifier,gs,min_samples_split,48,upselling,0.7344927445939735
+528,Decision Tree Classifier,roc_auc_score,GS Best,{'min_samples_leaf': 43},upselling,0.8054705363077876
+529,Decision Tree Classifier,gs,min_samples_leaf,1,upselling,0.6748744429256032
+530,Decision Tree Classifier,gs,min_samples_leaf,3,upselling,0.7030225939459792
+531,Decision Tree Classifier,gs,min_samples_leaf,5,upselling,0.7260165529648516
+532,Decision Tree Classifier,gs,min_samples_leaf,7,upselling,0.7326374366909448
+533,Decision Tree Classifier,gs,min_samples_leaf,9,upselling,0.7416599828931664
+534,Decision Tree Classifier,gs,min_samples_leaf,11,upselling,0.7487382935967988
+535,Decision Tree Classifier,gs,min_samples_leaf,13,upselling,0.7572834047910844
+536,Decision Tree Classifier,gs,min_samples_leaf,15,upselling,0.7603243086374958
+537,Decision Tree Classifier,gs,min_samples_leaf,17,upselling,0.7633849373895186
+538,Decision Tree Classifier,gs,min_samples_leaf,19,upselling,0.7680661337710103
+539,Decision Tree Classifier,gs,min_samples_leaf,21,upselling,0.771444427609617
+540,Decision Tree Classifier,gs,min_samples_leaf,23,upselling,0.7707203366951432
+541,Decision Tree Classifier,gs,min_samples_leaf,25,upselling,0.7725132506848046
+542,Decision Tree Classifier,gs,min_samples_leaf,27,upselling,0.7689611599999665
+543,Decision Tree Classifier,gs,min_samples_leaf,29,upselling,0.7740124706175676
+544,Decision Tree Classifier,gs,min_samples_leaf,31,upselling,0.7767051650822284
+545,Decision Tree Classifier,gs,min_samples_leaf,33,upselling,0.7815017950017653
+546,Decision Tree Classifier,gs,min_samples_leaf,35,upselling,0.7801256128626632
+547,Decision Tree Classifier,gs,min_samples_leaf,37,upselling,0.7805553701502133
+548,Decision Tree Classifier,gs,min_samples_leaf,39,upselling,0.7820165269583234
+549,Decision Tree Classifier,gs,min_samples_leaf,41,upselling,0.7833789148449771
+550,Decision Tree Classifier,gs,min_samples_leaf,43,upselling,0.7847151682936792
+551,Decision Tree Classifier,roc_auc_score,GS Best,{'max_leaf_nodes': 15},upselling,0.857899537664883
+552,Decision Tree Classifier,gs,max_leaf_nodes,,upselling,0.6748744429256032
+553,Decision Tree Classifier,gs,max_leaf_nodes,5,upselling,0.7966188773867819
+554,Decision Tree Classifier,gs,max_leaf_nodes,10,upselling,0.8399930644398013
+555,Decision Tree Classifier,gs,max_leaf_nodes,15,upselling,0.8450813599635859
+556,Decision Tree Classifier,gs,max_leaf_nodes,20,upselling,0.842823778045673
+557,Decision Tree Classifier,gs,max_leaf_nodes,25,upselling,0.841279262574356
+558,Decision Tree Classifier,gs,max_leaf_nodes,30,upselling,0.8374994352317264
+559,Decision Tree Classifier,gs,max_leaf_nodes,35,upselling,0.8368106845452047
+560,Decision Tree Classifier,gs,max_leaf_nodes,40,upselling,0.836200629692413
+561,Decision Tree Classifier,roc_auc_score,GS Best,"{'criterion': 'entropy', 'max_depth': 4, 'max_features': None, 'max_leaf_nodes': 15, 'min_samples_split': 46}",upselling,0.8637139219893825
+562,Decision Tree Classifier,gs,Multi,"{'criterion': 'entropy', 'max_depth': 4, 'max_features': None, 'max_leaf_nodes': 15, 'min_samples_split': 46}",upselling,0.8637139219893825
+563,Gradient Boosting Classifier,roc_auc_score,GS Best,{'n_estimators': 100},upselling,0.8727683336232703
+564,Gradient Boosting Classifier,gs,n_estimators,100,upselling,0.8611715916666034
+565,Gradient Boosting Classifier,gs,n_estimators,200,upselling,0.8593559731627239
+566,Gradient Boosting Classifier,gs,n_estimators,300,upselling,0.857659282915214
+567,Gradient Boosting Classifier,gs,n_estimators,400,upselling,0.8563289017534186
+568,Gradient Boosting Classifier,gs,n_estimators,500,upselling,0.8548388428060839
+569,Gradient Boosting Classifier,roc_auc_score,GS Best,{'max_features': None},upselling,0.8727683336232703
+570,Gradient Boosting Classifier,gs,max_features,,upselling,0.8611715916666034
+571,Gradient Boosting Classifier,gs,max_features,auto,upselling,0.8611715916666034
+572,Gradient Boosting Classifier,gs,max_features,sqrt,upselling,0.858338684919229
+573,Gradient Boosting Classifier,gs,max_features,log2,upselling,0.8556690661996331
+574,Gradient Boosting Classifier,roc_auc_score,GS Best,{'max_depth': 2},upselling,0.8699247380177372
+575,Gradient Boosting Classifier,gs,max_depth,,upselling,0.8322382221992005
+576,Gradient Boosting Classifier,gs,max_depth,2,upselling,0.8619228132050744
+577,Gradient Boosting Classifier,gs,max_depth,3,upselling,0.8611715916666034
+578,Gradient Boosting Classifier,gs,max_depth,4,upselling,0.8602407602052985
+579,Gradient Boosting Classifier,gs,max_depth,5,upselling,0.8575038782118108
+580,Gradient Boosting Classifier,roc_auc_score,GS Best,{'min_samples_split': 8},upselling,0.8722941640165469
+581,Gradient Boosting Classifier,gs,min_samples_split,2,upselling,0.8611715916666034
+582,Gradient Boosting Classifier,gs,min_samples_split,4,upselling,0.8607407193465456
+583,Gradient Boosting Classifier,gs,min_samples_split,6,upselling,0.8609417151287758
+584,Gradient Boosting Classifier,gs,min_samples_split,8,upselling,0.8617494825521312
+585,Gradient Boosting Classifier,gs,min_samples_split,10,upselling,0.8614191690122815
+586,Gradient Boosting Classifier,gs,min_samples_split,12,upselling,0.8608070797284438
+587,Gradient Boosting Classifier,gs,min_samples_split,14,upselling,0.8606464926641769
+588,Gradient Boosting Classifier,gs,min_samples_split,16,upselling,0.8611442651721721
+589,Gradient Boosting Classifier,gs,min_samples_split,18,upselling,0.8607984754059169
+590,Gradient Boosting Classifier,gs,min_samples_split,20,upselling,0.8610059255403861
+591,Gradient Boosting Classifier,gs,min_samples_split,22,upselling,0.8612841953394538
+592,Gradient Boosting Classifier,gs,min_samples_split,24,upselling,0.8608461441647316
+593,Gradient Boosting Classifier,gs,min_samples_split,26,upselling,0.8613927513039433
+594,Gradient Boosting Classifier,gs,min_samples_split,28,upselling,0.8613422328880637
+595,Gradient Boosting Classifier,gs,min_samples_split,30,upselling,0.8613422328880637
+596,Gradient Boosting Classifier,gs,min_samples_split,32,upselling,0.8613422328880637
+597,Gradient Boosting Classifier,gs,min_samples_split,34,upselling,0.8611833113547046
+598,Gradient Boosting Classifier,gs,min_samples_split,36,upselling,0.8611833113547046
+599,Gradient Boosting Classifier,gs,min_samples_split,38,upselling,0.8610897432898058
+600,Gradient Boosting Classifier,gs,min_samples_split,40,upselling,0.8611227948675371
+601,Gradient Boosting Classifier,gs,min_samples_split,42,upselling,0.8609439688555804
+602,Gradient Boosting Classifier,gs,min_samples_split,44,upselling,0.860944940961645
+603,Gradient Boosting Classifier,gs,min_samples_split,46,upselling,0.8610140227152661
+604,Gradient Boosting Classifier,gs,min_samples_split,48,upselling,0.8610139687093735
+605,Gradient Boosting Classifier,roc_auc_score,GS Best,{'loss': 'exponential'},upselling,0.8715679782409713
+606,Gradient Boosting Classifier,gs,loss,deviance,upselling,0.8611715916666034
+607,Gradient Boosting Classifier,gs,loss,exponential,upselling,0.8620083450077233
+608,Gradient Boosting Classifier,roc_auc_score,GS Best,{'min_samples_leaf': 7},upselling,0.8719132166917183
+609,Gradient Boosting Classifier,gs,min_samples_leaf,1,upselling,0.8611715916666034
+610,Gradient Boosting Classifier,gs,min_samples_leaf,3,upselling,0.8613277010915091
+611,Gradient Boosting Classifier,gs,min_samples_leaf,5,upselling,0.8604423443695316
+612,Gradient Boosting Classifier,gs,min_samples_leaf,7,upselling,0.8615938083283217
+613,Gradient Boosting Classifier,gs,min_samples_leaf,9,upselling,0.8606653050013557
+614,Gradient Boosting Classifier,gs,min_samples_leaf,11,upselling,0.8605650205748473
+615,Gradient Boosting Classifier,gs,min_samples_leaf,13,upselling,0.8598797431409168
+616,Gradient Boosting Classifier,gs,min_samples_leaf,15,upselling,0.8602475800070436
+617,Gradient Boosting Classifier,gs,min_samples_leaf,17,upselling,0.8600889010601135
+618,Gradient Boosting Classifier,gs,min_samples_leaf,19,upselling,0.8603155882014241
+619,Gradient Boosting Classifier,gs,min_samples_leaf,21,upselling,0.8613686362070916
+620,Gradient Boosting Classifier,gs,min_samples_leaf,23,upselling,0.8614455658668483
+621,Gradient Boosting Classifier,gs,min_samples_leaf,25,upselling,0.8615427801910526
+622,Gradient Boosting Classifier,gs,min_samples_leaf,27,upselling,0.8603315353219471
+623,Gradient Boosting Classifier,gs,min_samples_leaf,29,upselling,0.8604746588333914
+624,Gradient Boosting Classifier,gs,min_samples_leaf,31,upselling,0.861346258842774
+625,Gradient Boosting Classifier,gs,min_samples_leaf,33,upselling,0.8612501834657521
+626,Gradient Boosting Classifier,gs,min_samples_leaf,35,upselling,0.8612373405323765
+627,Gradient Boosting Classifier,gs,min_samples_leaf,37,upselling,0.8611818751036172
+628,Gradient Boosting Classifier,gs,min_samples_leaf,39,upselling,0.8605900153135275
+629,Gradient Boosting Classifier,gs,min_samples_leaf,41,upselling,0.8610754834549361
+630,Gradient Boosting Classifier,gs,min_samples_leaf,43,upselling,0.8609682989765012
+631,Gradient Boosting Classifier,roc_auc_score,GS Best,{'max_leaf_nodes': None},upselling,0.8727683336232703
+632,Gradient Boosting Classifier,gs,max_leaf_nodes,,upselling,0.8611715916666034
+633,Gradient Boosting Classifier,gs,max_leaf_nodes,5,upselling,0.8610240320974452
+634,Gradient Boosting Classifier,gs,max_leaf_nodes,10,upselling,0.8608073308823366
+635,Gradient Boosting Classifier,gs,max_leaf_nodes,15,upselling,0.8610603453926468
+636,Gradient Boosting Classifier,gs,max_leaf_nodes,20,upselling,0.8600345046933882
+637,Gradient Boosting Classifier,gs,max_leaf_nodes,25,upselling,0.8600345046933882
+638,Gradient Boosting Classifier,gs,max_leaf_nodes,30,upselling,0.8600345046933882
+639,Gradient Boosting Classifier,gs,max_leaf_nodes,35,upselling,0.8600345046933882
+640,Gradient Boosting Classifier,gs,max_leaf_nodes,40,upselling,0.8600345046933882
+641,Gradient Boosting Classifier,roc_auc_score,GS Best,{'subsample': 1.0},upselling,0.8727683336232703
+642,Gradient Boosting Classifier,gs,subsample,0.1,upselling,0.8385864472346726
+643,Gradient Boosting Classifier,gs,subsample,0.2,upselling,0.8523901550778644
+644,Gradient Boosting Classifier,gs,subsample,0.3,upselling,0.8530018531802469
+645,Gradient Boosting Classifier,gs,subsample,0.4,upselling,0.8560059270365504
+646,Gradient Boosting Classifier,gs,subsample,0.5,upselling,0.8573919105817219
+647,Gradient Boosting Classifier,gs,subsample,0.6,upselling,0.859535803643556
+648,Gradient Boosting Classifier,gs,subsample,0.7,upselling,0.8590068658744422
+649,Gradient Boosting Classifier,gs,subsample,0.8,upselling,0.8598029645338855
+650,Gradient Boosting Classifier,gs,subsample,0.9,upselling,0.8601139147882169
+651,Gradient Boosting Classifier,gs,subsample,1.0,upselling,0.8611715916666034
+652,Gradient Boosting Classifier,roc_auc_score,GS Best,"{'max_depth': 3, 'max_leaf_nodes': 5, 'min_samples_leaf': 14, 'min_samples_split': 8}",upselling,0.8712630307764673
+653,Gradient Boosting Classifier,gs,Multi,"{'max_depth': 3, 'max_leaf_nodes': 5, 'min_samples_leaf': 14, 'min_samples_split': 8}",upselling,0.8712630307764673

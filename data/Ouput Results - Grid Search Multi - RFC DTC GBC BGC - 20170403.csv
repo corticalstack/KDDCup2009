@@ -1,0 +1,24 @@
+0,Random Forest Classifier,roc_auc_score,GS Best,"{'max_leaf_nodes': 25, 'min_samples_leaf': 39, 'min_samples_split': 46}",churn,0.7286497433484669
+1,Random Forest Classifier,gs,Multi,"{'max_leaf_nodes': 25, 'min_samples_leaf': 39, 'min_samples_split': 46}",churn,0.7286497433484669
+2,Decision Tree Classifier,roc_auc_score,GS Best,"{'criterion': 'entropy', 'max_features': None, 'max_leaf_nodes': 15, 'min_samples_split': 46}",churn,0.7024736050725882
+3,Decision Tree Classifier,gs,Multi,"{'criterion': 'entropy', 'max_features': None, 'max_leaf_nodes': 15, 'min_samples_split': 46}",churn,0.7024736050725882
+4,Gradient Boosting Classifier,roc_auc_score,GS Best,"{'max_leaf_nodes': 5, 'min_samples_leaf': 32, 'min_samples_split': 8}",churn,0.7392286774318363
+5,Gradient Boosting Classifier,gs,Multi,"{'max_leaf_nodes': 5, 'min_samples_leaf': 32, 'min_samples_split': 8}",churn,0.7392286774318363
+6,Bagging Classifier,roc_auc_score,GS Best,{'max_samples': 0.6},churn,0.6833263360875866
+7,Bagging Classifier,gs,Multi,{'max_samples': 0.6},churn,0.6833263360875866
+8,Random Forest Classifier,roc_auc_score,GS Best,"{'max_leaf_nodes': 25, 'min_samples_leaf': 39, 'min_samples_split': 46}",appetency,0.8052346665353388
+9,Random Forest Classifier,gs,Multi,"{'max_leaf_nodes': 25, 'min_samples_leaf': 39, 'min_samples_split': 46}",appetency,0.8052346665353388
+10,Decision Tree Classifier,roc_auc_score,GS Best,"{'criterion': 'entropy', 'max_features': None, 'max_leaf_nodes': 10, 'min_samples_split': 46}",appetency,0.7978474723483892
+11,Decision Tree Classifier,gs,Multi,"{'criterion': 'entropy', 'max_features': None, 'max_leaf_nodes': 10, 'min_samples_split': 46}",appetency,0.7978474723483892
+12,Gradient Boosting Classifier,roc_auc_score,GS Best,"{'max_leaf_nodes': 5, 'min_samples_leaf': 17, 'min_samples_split': 8}",appetency,0.8129626789995501
+13,Gradient Boosting Classifier,gs,Multi,"{'max_leaf_nodes': 5, 'min_samples_leaf': 17, 'min_samples_split': 8}",appetency,0.8129626789995501
+14,Bagging Classifier,roc_auc_score,GS Best,{'max_samples': 0.5},appetency,0.7465330554554429
+15,Bagging Classifier,gs,Multi,{'max_samples': 0.5},appetency,0.7465330554554429
+16,Random Forest Classifier,roc_auc_score,GS Best,"{'max_leaf_nodes': 35, 'min_samples_leaf': 31, 'min_samples_split': 46}",upselling,0.8666238002173817
+17,Random Forest Classifier,gs,Multi,"{'max_leaf_nodes': 35, 'min_samples_leaf': 31, 'min_samples_split': 46}",upselling,0.8666238002173817
+18,Decision Tree Classifier,roc_auc_score,GS Best,"{'criterion': 'entropy', 'max_features': None, 'max_leaf_nodes': 20, 'min_samples_split': 46}",upselling,0.8653535281236615
+19,Decision Tree Classifier,gs,Multi,"{'criterion': 'entropy', 'max_features': None, 'max_leaf_nodes': 20, 'min_samples_split': 46}",upselling,0.8653535281236615
+20,Gradient Boosting Classifier,roc_auc_score,GS Best,"{'max_leaf_nodes': 5, 'min_samples_leaf': 32, 'min_samples_split': 8}",upselling,0.8710750851759349
+21,Gradient Boosting Classifier,gs,Multi,"{'max_leaf_nodes': 5, 'min_samples_leaf': 32, 'min_samples_split': 8}",upselling,0.8710750851759349
+22,Bagging Classifier,roc_auc_score,GS Best,{'max_samples': 0.5},upselling,0.8493501063919041
+23,Bagging Classifier,gs,Multi,{'max_samples': 0.5},upselling,0.8493501063919041

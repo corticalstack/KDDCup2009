@@ -1,0 +1,3 @@
+0,Bagging Classifier,roc_auc_score,Final,base_estimator=RandomForestClassifier,churn,0.7281087804129777
+1,Bagging Classifier,roc_auc_score,Final,base_estimator=RandomForestClassifier,appetency,0.8045622639735494
+2,Bagging Classifier,roc_auc_score,Final,base_estimator=RandomForestClassifier,upselling,0.8695115579039143

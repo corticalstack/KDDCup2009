@@ -1,0 +1,312 @@
+0,Random Forest Classifier,roc_auc_score,GS Best,"{'class_weight': {-1: 1, 1: 9}}",churn,0.604734173346246
+1,Random Forest Classifier,GS Mean,class_weight,balanced,churn,0.595426589949156
+2,Random Forest Classifier,GS Mean,class_weight,balanced_subsample,churn,0.5834408455249515
+3,Random Forest Classifier,GS Mean,class_weight,"{-1: 1, 1: 9}",churn,0.5967776342255248
+4,Random Forest Classifier,GS Mean,class_weight,"{-1: 1, 1: 19}",churn,0.5931264450491569
+5,Random Forest Classifier,GS Mean,class_weight,"{-1: 1, 1: 1}",churn,0.5957370716812248
+6,Random Forest Classifier,GS Mean,class_weight,"{-1: 1, 1: 2}",churn,0.5845528992968215
+7,Random Forest Classifier,roc_auc_score,GS Best,{'criterion': 'gini'},churn,0.613252711897779
+8,Random Forest Classifier,GS Mean,criterion,gini,churn,0.5957370716812248
+9,Random Forest Classifier,GS Mean,criterion,entropy,churn,0.5956667386587747
+10,Random Forest Classifier,roc_auc_score,GS Best,{'n_estimators': 1900},churn,0.6944643343658922
+11,Random Forest Classifier,GS Mean,n_estimators,400,churn,0.6779832897736938
+12,Random Forest Classifier,GS Mean,n_estimators,500,churn,0.6792677248045881
+13,Random Forest Classifier,GS Mean,n_estimators,600,churn,0.6801887528257294
+14,Random Forest Classifier,GS Mean,n_estimators,700,churn,0.6811335514877203
+15,Random Forest Classifier,GS Mean,n_estimators,1000,churn,0.6829274799798721
+16,Random Forest Classifier,GS Mean,n_estimators,1200,churn,0.6836616176845074
+17,Random Forest Classifier,GS Mean,n_estimators,1500,churn,0.683930541691954
+18,Random Forest Classifier,GS Mean,n_estimators,1700,churn,0.6842308548921524
+19,Random Forest Classifier,GS Mean,n_estimators,1900,churn,0.6844436687609389
+20,Random Forest Classifier,GS Mean,n_estimators,2000,churn,0.6844372685879573
+21,Random Forest Classifier,roc_auc_score,GS Best,{'max_features': None},churn,0.6105309407045668
+22,Random Forest Classifier,GS Mean,max_features,,churn,0.6075984245606606
+23,Random Forest Classifier,GS Mean,max_features,auto,churn,0.5957370716812248
+24,Random Forest Classifier,GS Mean,max_features,sqrt,churn,0.5957370716812248
+25,Random Forest Classifier,GS Mean,max_features,log2,churn,0.5685516697042915
+26,Random Forest Classifier,roc_auc_score,GS Best,{'max_depth': 3},churn,0.6816059294288416
+27,Random Forest Classifier,GS Mean,max_depth,,churn,0.5957370716812248
+28,Random Forest Classifier,GS Mean,max_depth,2,churn,0.6833967071018185
+29,Random Forest Classifier,GS Mean,max_depth,3,churn,0.6876496143160504
+30,Random Forest Classifier,GS Mean,max_depth,4,churn,0.6830016448037535
+31,Random Forest Classifier,GS Mean,max_depth,5,churn,0.6854121941955352
+32,Random Forest Classifier,roc_auc_score,GS Best,{'min_samples_leaf': 43},churn,0.6941855892797043
+33,Random Forest Classifier,GS Mean,min_samples_leaf,29,churn,0.6654677570892221
+34,Random Forest Classifier,GS Mean,min_samples_leaf,31,churn,0.673804249211921
+35,Random Forest Classifier,GS Mean,min_samples_leaf,33,churn,0.6690445617189682
+36,Random Forest Classifier,GS Mean,min_samples_leaf,35,churn,0.6743251663110282
+37,Random Forest Classifier,GS Mean,min_samples_leaf,37,churn,0.6790726912677653
+38,Random Forest Classifier,GS Mean,min_samples_leaf,39,churn,0.6693053483512328
+39,Random Forest Classifier,GS Mean,min_samples_leaf,41,churn,0.6788345488766604
+40,Random Forest Classifier,GS Mean,min_samples_leaf,43,churn,0.6800922893911453
+41,Random Forest Classifier,GS Mean,min_samples_leaf,45,churn,0.6755660930289834
+42,Random Forest Classifier,GS Mean,min_samples_leaf,47,churn,0.672554479551934
+43,Random Forest Classifier,GS Mean,min_samples_leaf,49,churn,0.670819746489031
+44,Random Forest Classifier,roc_auc_score,GS Best,{'max_leaf_nodes': 25},churn,0.7059666473204985
+45,Random Forest Classifier,GS Mean,max_leaf_nodes,,churn,0.5957370716812248
+46,Random Forest Classifier,GS Mean,max_leaf_nodes,20,churn,0.6837116723627471
+47,Random Forest Classifier,GS Mean,max_leaf_nodes,25,churn,0.6837377283613503
+48,Random Forest Classifier,GS Mean,max_leaf_nodes,30,churn,0.682485191218213
+49,Random Forest Classifier,GS Mean,max_leaf_nodes,35,churn,0.6827073633198705
+50,Random Forest Classifier,GS Mean,max_leaf_nodes,40,churn,0.6829520671216899
+51,Random Forest Classifier,roc_auc_score,GS Best,{'min_samples_split': 640},churn,0.7078612696581108
+52,Random Forest Classifier,GS Mean,min_samples_split,20,churn,0.6301978747320431
+53,Random Forest Classifier,GS Mean,min_samples_split,40,churn,0.6363768669529638
+54,Random Forest Classifier,GS Mean,min_samples_split,60,churn,0.6513171716953153
+55,Random Forest Classifier,GS Mean,min_samples_split,80,churn,0.6597770423759801
+56,Random Forest Classifier,GS Mean,min_samples_split,100,churn,0.6553090293259086
+57,Random Forest Classifier,GS Mean,min_samples_split,120,churn,0.6556767797608367
+58,Random Forest Classifier,GS Mean,min_samples_split,140,churn,0.6688925158203033
+59,Random Forest Classifier,GS Mean,min_samples_split,160,churn,0.6691540939728527
+60,Random Forest Classifier,GS Mean,min_samples_split,180,churn,0.6730117163822943
+61,Random Forest Classifier,GS Mean,min_samples_split,200,churn,0.6707672460490409
+62,Random Forest Classifier,GS Mean,min_samples_split,220,churn,0.6729020453106775
+63,Random Forest Classifier,GS Mean,min_samples_split,240,churn,0.6787739490217589
+64,Random Forest Classifier,GS Mean,min_samples_split,260,churn,0.6799071088129001
+65,Random Forest Classifier,GS Mean,min_samples_split,280,churn,0.6750862255306531
+66,Random Forest Classifier,GS Mean,min_samples_split,300,churn,0.6844488900413562
+67,Random Forest Classifier,GS Mean,min_samples_split,320,churn,0.6841991462850836
+68,Random Forest Classifier,GS Mean,min_samples_split,340,churn,0.6815097333521868
+69,Random Forest Classifier,GS Mean,min_samples_split,360,churn,0.6843599472972789
+70,Random Forest Classifier,GS Mean,min_samples_split,380,churn,0.6802301265346608
+71,Random Forest Classifier,GS Mean,min_samples_split,400,churn,0.6765765294221587
+72,Random Forest Classifier,GS Mean,min_samples_split,420,churn,0.6805637399128704
+73,Random Forest Classifier,GS Mean,min_samples_split,440,churn,0.6838374681626064
+74,Random Forest Classifier,GS Mean,min_samples_split,460,churn,0.688129586865213
+75,Random Forest Classifier,GS Mean,min_samples_split,480,churn,0.6882371476548198
+76,Random Forest Classifier,GS Mean,min_samples_split,500,churn,0.6919954689420762
+77,Random Forest Classifier,GS Mean,min_samples_split,520,churn,0.6858134242268313
+78,Random Forest Classifier,GS Mean,min_samples_split,540,churn,0.6906067497721441
+79,Random Forest Classifier,GS Mean,min_samples_split,560,churn,0.6878485740651747
+80,Random Forest Classifier,GS Mean,min_samples_split,580,churn,0.6863423861540957
+81,Random Forest Classifier,GS Mean,min_samples_split,600,churn,0.6895311784785788
+82,Random Forest Classifier,GS Mean,min_samples_split,620,churn,0.6949646978127827
+83,Random Forest Classifier,GS Mean,min_samples_split,640,churn,0.6984495974160163
+84,Random Forest Classifier,GS Mean,min_samples_split,660,churn,0.694936536570498
+85,Random Forest Classifier,GS Mean,min_samples_split,680,churn,0.695976715860707
+86,Random Forest Classifier,GS Mean,min_samples_split,700,churn,0.693500063622594
+87,Random Forest Classifier,GS Mean,min_samples_split,720,churn,0.6842876911044448
+88,Random Forest Classifier,GS Mean,min_samples_split,740,churn,0.6855017640117728
+89,Random Forest Classifier,GS Mean,min_samples_split,760,churn,0.6872688232024013
+90,Random Forest Classifier,GS Mean,min_samples_split,780,churn,0.6892307631461878
+91,Random Forest Classifier,GS Mean,min_samples_split,800,churn,0.6921153377005412
+92,Random Forest Classifier,GS Mean,min_samples_split,820,churn,0.6929148268470903
+93,Random Forest Classifier,GS Mean,min_samples_split,840,churn,0.6877606431352827
+94,Random Forest Classifier,GS Mean,min_samples_split,860,churn,0.6932683396973062
+95,Random Forest Classifier,GS Mean,min_samples_split,880,churn,0.6943575499963491
+96,Random Forest Classifier,GS Mean,min_samples_split,900,churn,0.6912636022286646
+97,Random Forest Classifier,GS Mean,min_samples_split,920,churn,0.6903107794753343
+98,Random Forest Classifier,GS Mean,min_samples_split,940,churn,0.6905904327671477
+99,Random Forest Classifier,GS Mean,min_samples_split,960,churn,0.6896342271577524
+100,Random Forest Classifier,GS Mean,min_samples_split,980,churn,0.6921014572390614
+101,Random Forest Classifier,GS Mean,min_samples_split,1000,churn,0.6919702828619448
+102,Random Forest Classifier,roc_auc_score,GS Best,"{'max_depth': 5, 'min_samples_split': 640}",churn,0.7237019465221541
+103,Random Forest Classifier,GS Mean,Multi,"{'max_depth': 5, 'min_samples_split': 640}",churn,0.7237019465221541
+104,Random Forest Classifier,roc_auc_score,GS Best,"{'class_weight': {-1: 1, 1: 1}}",appetency,0.5949632207271237
+105,Random Forest Classifier,GS Mean,class_weight,balanced,appetency,0.5756499982317416
+106,Random Forest Classifier,GS Mean,class_weight,balanced_subsample,appetency,0.5809555741569182
+107,Random Forest Classifier,GS Mean,class_weight,"{-1: 1, 1: 9}",appetency,0.5848186131711218
+108,Random Forest Classifier,GS Mean,class_weight,"{-1: 1, 1: 19}",appetency,0.5951344312807975
+109,Random Forest Classifier,GS Mean,class_weight,"{-1: 1, 1: 1}",appetency,0.6054023446284938
+110,Random Forest Classifier,GS Mean,class_weight,"{-1: 1, 1: 2}",appetency,0.5886824088328676
+111,Random Forest Classifier,roc_auc_score,GS Best,{'criterion': 'gini'},appetency,0.5949632207271237
+112,Random Forest Classifier,GS Mean,criterion,gini,appetency,0.6054023446284938
+113,Random Forest Classifier,GS Mean,criterion,entropy,appetency,0.600702116167955
+114,Random Forest Classifier,roc_auc_score,GS Best,{'n_estimators': 1900},appetency,0.7644951300481959
+115,Random Forest Classifier,GS Mean,n_estimators,400,appetency,0.7629382539853423
+116,Random Forest Classifier,GS Mean,n_estimators,500,appetency,0.7668375718727626
+117,Random Forest Classifier,GS Mean,n_estimators,600,appetency,0.7670222193766034
+118,Random Forest Classifier,GS Mean,n_estimators,700,appetency,0.7700016992307557
+119,Random Forest Classifier,GS Mean,n_estimators,1000,appetency,0.7704165776142385
+120,Random Forest Classifier,GS Mean,n_estimators,1200,appetency,0.773279423490739
+121,Random Forest Classifier,GS Mean,n_estimators,1500,appetency,0.7743459213032394
+122,Random Forest Classifier,GS Mean,n_estimators,1700,appetency,0.7755487702303862
+123,Random Forest Classifier,GS Mean,n_estimators,1900,appetency,0.7766618017699766
+124,Random Forest Classifier,GS Mean,n_estimators,2000,appetency,0.7764836558279136
+125,Random Forest Classifier,roc_auc_score,GS Best,{'max_features': None},appetency,0.6475010017483027
+126,Random Forest Classifier,GS Mean,max_features,,appetency,0.6314007074345783
+127,Random Forest Classifier,GS Mean,max_features,auto,appetency,0.6054023446284938
+128,Random Forest Classifier,GS Mean,max_features,sqrt,appetency,0.6054023446284938
+129,Random Forest Classifier,GS Mean,max_features,log2,appetency,0.5705860587931518
+130,Random Forest Classifier,roc_auc_score,GS Best,{'max_depth': 4},appetency,0.7919413546323304
+131,Random Forest Classifier,GS Mean,max_depth,,appetency,0.6054023446284938
+132,Random Forest Classifier,GS Mean,max_depth,2,appetency,0.7776591374439531
+133,Random Forest Classifier,GS Mean,max_depth,3,appetency,0.7904916317235959
+134,Random Forest Classifier,GS Mean,max_depth,4,appetency,0.79373949839451
+135,Random Forest Classifier,GS Mean,max_depth,5,appetency,0.7919404680655072
+136,Random Forest Classifier,roc_auc_score,GS Best,{'min_samples_leaf': 45},appetency,0.749694718603865
+137,Random Forest Classifier,GS Mean,min_samples_leaf,29,appetency,0.7455870571183526
+138,Random Forest Classifier,GS Mean,min_samples_leaf,31,appetency,0.7423050324474637
+139,Random Forest Classifier,GS Mean,min_samples_leaf,33,appetency,0.7534388207401101
+140,Random Forest Classifier,GS Mean,min_samples_leaf,35,appetency,0.745894599534572
+141,Random Forest Classifier,GS Mean,min_samples_leaf,37,appetency,0.7455026432757302
+142,Random Forest Classifier,GS Mean,min_samples_leaf,39,appetency,0.7574544562330994
+143,Random Forest Classifier,GS Mean,min_samples_leaf,41,appetency,0.7547195061330839
+144,Random Forest Classifier,GS Mean,min_samples_leaf,43,appetency,0.7518342830276795
+145,Random Forest Classifier,GS Mean,min_samples_leaf,45,appetency,0.7597510308272009
+146,Random Forest Classifier,GS Mean,min_samples_leaf,47,appetency,0.7535831177387248
+147,Random Forest Classifier,GS Mean,min_samples_leaf,49,appetency,0.7506576637829315
+148,Random Forest Classifier,roc_auc_score,GS Best,{'max_leaf_nodes': 25},appetency,0.7874958866759642
+149,Random Forest Classifier,GS Mean,max_leaf_nodes,,appetency,0.6054023446284938
+150,Random Forest Classifier,GS Mean,max_leaf_nodes,20,appetency,0.7878316108864846
+151,Random Forest Classifier,GS Mean,max_leaf_nodes,25,appetency,0.788615833152317
+152,Random Forest Classifier,GS Mean,max_leaf_nodes,30,appetency,0.7833984949073697
+153,Random Forest Classifier,GS Mean,max_leaf_nodes,35,appetency,0.7831723177804681
+154,Random Forest Classifier,GS Mean,max_leaf_nodes,40,appetency,0.7829997069480831
+155,Random Forest Classifier,roc_auc_score,GS Best,{'min_samples_split': 980},appetency,0.7839435976531107
+156,Random Forest Classifier,GS Mean,min_samples_split,20,appetency,0.6897251073431158
+157,Random Forest Classifier,GS Mean,min_samples_split,40,appetency,0.7109073767336569
+158,Random Forest Classifier,GS Mean,min_samples_split,60,appetency,0.7224026488929315
+159,Random Forest Classifier,GS Mean,min_samples_split,80,appetency,0.7469448468286974
+160,Random Forest Classifier,GS Mean,min_samples_split,100,appetency,0.7445921819249287
+161,Random Forest Classifier,GS Mean,min_samples_split,120,appetency,0.7392745306180112
+162,Random Forest Classifier,GS Mean,min_samples_split,140,appetency,0.7510418833983605
+163,Random Forest Classifier,GS Mean,min_samples_split,160,appetency,0.7429959025370039
+164,Random Forest Classifier,GS Mean,min_samples_split,180,appetency,0.7400053552876212
+165,Random Forest Classifier,GS Mean,min_samples_split,200,appetency,0.7546872338464121
+166,Random Forest Classifier,GS Mean,min_samples_split,220,appetency,0.760383603659745
+167,Random Forest Classifier,GS Mean,min_samples_split,240,appetency,0.7584046312857954
+168,Random Forest Classifier,GS Mean,min_samples_split,260,appetency,0.7681384270450616
+169,Random Forest Classifier,GS Mean,min_samples_split,280,appetency,0.7618855538020465
+170,Random Forest Classifier,GS Mean,min_samples_split,300,appetency,0.7647812340568358
+171,Random Forest Classifier,GS Mean,min_samples_split,320,appetency,0.7645760781667416
+172,Random Forest Classifier,GS Mean,min_samples_split,340,appetency,0.7640148198065608
+173,Random Forest Classifier,GS Mean,min_samples_split,360,appetency,0.7643168172204281
+174,Random Forest Classifier,GS Mean,min_samples_split,380,appetency,0.7669621683662612
+175,Random Forest Classifier,GS Mean,min_samples_split,400,appetency,0.7644150494038836
+176,Random Forest Classifier,GS Mean,min_samples_split,420,appetency,0.7619216472133529
+177,Random Forest Classifier,GS Mean,min_samples_split,440,appetency,0.7674465612370795
+178,Random Forest Classifier,GS Mean,min_samples_split,460,appetency,0.7679884255139178
+179,Random Forest Classifier,GS Mean,min_samples_split,480,appetency,0.7718626184132353
+180,Random Forest Classifier,GS Mean,min_samples_split,500,appetency,0.7746106347185565
+181,Random Forest Classifier,GS Mean,min_samples_split,520,appetency,0.7809485162415214
+182,Random Forest Classifier,GS Mean,min_samples_split,540,appetency,0.7840172451011398
+183,Random Forest Classifier,GS Mean,min_samples_split,560,appetency,0.778676101587252
+184,Random Forest Classifier,GS Mean,min_samples_split,580,appetency,0.7737215394772621
+185,Random Forest Classifier,GS Mean,min_samples_split,600,appetency,0.7812378551328242
+186,Random Forest Classifier,GS Mean,min_samples_split,620,appetency,0.7806680769900707
+187,Random Forest Classifier,GS Mean,min_samples_split,640,appetency,0.7825741689838491
+188,Random Forest Classifier,GS Mean,min_samples_split,660,appetency,0.7823635898622759
+189,Random Forest Classifier,GS Mean,min_samples_split,680,appetency,0.7771359829433523
+190,Random Forest Classifier,GS Mean,min_samples_split,700,appetency,0.7819372797919102
+191,Random Forest Classifier,GS Mean,min_samples_split,720,appetency,0.781204698108447
+192,Random Forest Classifier,GS Mean,min_samples_split,740,appetency,0.7867043992956425
+193,Random Forest Classifier,GS Mean,min_samples_split,760,appetency,0.7857352290406237
+194,Random Forest Classifier,GS Mean,min_samples_split,780,appetency,0.7851217332277166
+195,Random Forest Classifier,GS Mean,min_samples_split,800,appetency,0.7850446465055553
+196,Random Forest Classifier,GS Mean,min_samples_split,820,appetency,0.784233979013945
+197,Random Forest Classifier,GS Mean,min_samples_split,840,appetency,0.7837828262404427
+198,Random Forest Classifier,GS Mean,min_samples_split,860,appetency,0.782029977606712
+199,Random Forest Classifier,GS Mean,min_samples_split,880,appetency,0.7821779514731183
+200,Random Forest Classifier,GS Mean,min_samples_split,900,appetency,0.781777417463021
+201,Random Forest Classifier,GS Mean,min_samples_split,920,appetency,0.7833850703797732
+202,Random Forest Classifier,GS Mean,min_samples_split,940,appetency,0.7855573241619923
+203,Random Forest Classifier,GS Mean,min_samples_split,960,appetency,0.7870957843606187
+204,Random Forest Classifier,GS Mean,min_samples_split,980,appetency,0.7873318521485441
+205,Random Forest Classifier,GS Mean,min_samples_split,1000,appetency,0.7865349279031898
+206,Random Forest Classifier,roc_auc_score,GS Best,"{'max_depth': 3, 'min_samples_split': 640}",appetency,0.8077191702166239
+207,Random Forest Classifier,GS Mean,Multi,"{'max_depth': 3, 'min_samples_split': 640}",appetency,0.8077191702166239
+208,Random Forest Classifier,roc_auc_score,GS Best,"{'class_weight': {-1: 1, 1: 1}}",upselling,0.7810937786135128
+209,Random Forest Classifier,GS Mean,class_weight,balanced,upselling,0.7620914673273861
+210,Random Forest Classifier,GS Mean,class_weight,balanced_subsample,upselling,0.7673449127488423
+211,Random Forest Classifier,GS Mean,class_weight,"{-1: 1, 1: 9}",upselling,0.761915492648547
+212,Random Forest Classifier,GS Mean,class_weight,"{-1: 1, 1: 19}",upselling,0.7665523425969853
+213,Random Forest Classifier,GS Mean,class_weight,"{-1: 1, 1: 1}",upselling,0.7702988272498486
+214,Random Forest Classifier,GS Mean,class_weight,"{-1: 1, 1: 2}",upselling,0.7639450603834961
+215,Random Forest Classifier,roc_auc_score,GS Best,{'criterion': 'gini'},upselling,0.7810937786135128
+216,Random Forest Classifier,GS Mean,criterion,gini,upselling,0.7702988272498486
+217,Random Forest Classifier,GS Mean,criterion,entropy,upselling,0.7694043982779819
+218,Random Forest Classifier,roc_auc_score,GS Best,{'n_estimators': 1200},upselling,0.8410643045720473
+219,Random Forest Classifier,GS Mean,n_estimators,400,upselling,0.8309840674787418
+220,Random Forest Classifier,GS Mean,n_estimators,500,upselling,0.8315153089376643
+221,Random Forest Classifier,GS Mean,n_estimators,600,upselling,0.8323947940821292
+222,Random Forest Classifier,GS Mean,n_estimators,700,upselling,0.8322773550394489
+223,Random Forest Classifier,GS Mean,n_estimators,1000,upselling,0.8334388628845474
+224,Random Forest Classifier,GS Mean,n_estimators,1200,upselling,0.833707979878111
+225,Random Forest Classifier,GS Mean,n_estimators,1500,upselling,0.833579809329704
+226,Random Forest Classifier,GS Mean,n_estimators,1700,upselling,0.833699966307707
+227,Random Forest Classifier,GS Mean,n_estimators,1900,upselling,0.8337015499813498
+228,Random Forest Classifier,GS Mean,n_estimators,2000,upselling,0.8336590132952558
+229,Random Forest Classifier,roc_auc_score,GS Best,{'max_features': None},upselling,0.8048132402184941
+230,Random Forest Classifier,GS Mean,max_features,,upselling,0.7778815592117194
+231,Random Forest Classifier,GS Mean,max_features,auto,upselling,0.7702988272498486
+232,Random Forest Classifier,GS Mean,max_features,sqrt,upselling,0.7702988272498486
+233,Random Forest Classifier,GS Mean,max_features,log2,upselling,0.7546763632536965
+234,Random Forest Classifier,roc_auc_score,GS Best,{'max_depth': 5},upselling,0.8297678970585842
+235,Random Forest Classifier,GS Mean,max_depth,,upselling,0.7702988272498486
+236,Random Forest Classifier,GS Mean,max_depth,2,upselling,0.8214454860145405
+237,Random Forest Classifier,GS Mean,max_depth,3,upselling,0.8280473694075114
+238,Random Forest Classifier,GS Mean,max_depth,4,upselling,0.8291199599892396
+239,Random Forest Classifier,GS Mean,max_depth,5,upselling,0.836550114864299
+240,Random Forest Classifier,roc_auc_score,GS Best,{'min_samples_leaf': 31},upselling,0.8393852764727976
+241,Random Forest Classifier,GS Mean,min_samples_leaf,29,upselling,0.8308947063340532
+242,Random Forest Classifier,GS Mean,min_samples_leaf,31,upselling,0.83444415532042
+243,Random Forest Classifier,GS Mean,min_samples_leaf,33,upselling,0.8258933296738897
+244,Random Forest Classifier,GS Mean,min_samples_leaf,35,upselling,0.8331759899801936
+245,Random Forest Classifier,GS Mean,min_samples_leaf,37,upselling,0.8271970023448301
+246,Random Forest Classifier,GS Mean,min_samples_leaf,39,upselling,0.8282279608380686
+247,Random Forest Classifier,GS Mean,min_samples_leaf,41,upselling,0.8320417179212592
+248,Random Forest Classifier,GS Mean,min_samples_leaf,43,upselling,0.8283953570642674
+249,Random Forest Classifier,GS Mean,min_samples_leaf,45,upselling,0.8292616609962922
+250,Random Forest Classifier,GS Mean,min_samples_leaf,47,upselling,0.8311127638686379
+251,Random Forest Classifier,GS Mean,min_samples_leaf,49,upselling,0.8298359819009661
+252,Random Forest Classifier,roc_auc_score,GS Best,{'max_leaf_nodes': 40},upselling,0.8459913391760003
+253,Random Forest Classifier,GS Mean,max_leaf_nodes,,upselling,0.7702988272498486
+254,Random Forest Classifier,GS Mean,max_leaf_nodes,20,upselling,0.8337907141499129
+255,Random Forest Classifier,GS Mean,max_leaf_nodes,25,upselling,0.8371681266180909
+256,Random Forest Classifier,GS Mean,max_leaf_nodes,30,upselling,0.8374229958923127
+257,Random Forest Classifier,GS Mean,max_leaf_nodes,35,upselling,0.8386681138336703
+258,Random Forest Classifier,GS Mean,max_leaf_nodes,40,upselling,0.8395402633364787
+259,Random Forest Classifier,roc_auc_score,GS Best,{'min_samples_split': 880},upselling,0.8529740830996062
+260,Random Forest Classifier,GS Mean,min_samples_split,20,upselling,0.7975622702451499
+261,Random Forest Classifier,GS Mean,min_samples_split,40,upselling,0.8088616361176459
+262,Random Forest Classifier,GS Mean,min_samples_split,60,upselling,0.8113172955947414
+263,Random Forest Classifier,GS Mean,min_samples_split,80,upselling,0.81390825109083
+264,Random Forest Classifier,GS Mean,min_samples_split,100,upselling,0.8160602111695466
+265,Random Forest Classifier,GS Mean,min_samples_split,120,upselling,0.8233142826106508
+266,Random Forest Classifier,GS Mean,min_samples_split,140,upselling,0.8208108110574738
+267,Random Forest Classifier,GS Mean,min_samples_split,160,upselling,0.8242063160393395
+268,Random Forest Classifier,GS Mean,min_samples_split,180,upselling,0.8269600036633422
+269,Random Forest Classifier,GS Mean,min_samples_split,200,upselling,0.8288660482007812
+270,Random Forest Classifier,GS Mean,min_samples_split,220,upselling,0.8305255936898331
+271,Random Forest Classifier,GS Mean,min_samples_split,240,upselling,0.8250573932742521
+272,Random Forest Classifier,GS Mean,min_samples_split,260,upselling,0.8294233165631789
+273,Random Forest Classifier,GS Mean,min_samples_split,280,upselling,0.8312534988618742
+274,Random Forest Classifier,GS Mean,min_samples_split,300,upselling,0.8341940035953405
+275,Random Forest Classifier,GS Mean,min_samples_split,320,upselling,0.8331864021294995
+276,Random Forest Classifier,GS Mean,min_samples_split,340,upselling,0.8337351893980913
+277,Random Forest Classifier,GS Mean,min_samples_split,360,upselling,0.8337346594469345
+278,Random Forest Classifier,GS Mean,min_samples_split,380,upselling,0.8322468813344459
+279,Random Forest Classifier,GS Mean,min_samples_split,400,upselling,0.8371555162060714
+280,Random Forest Classifier,GS Mean,min_samples_split,420,upselling,0.8379784168376229
+281,Random Forest Classifier,GS Mean,min_samples_split,440,upselling,0.8390019017241395
+282,Random Forest Classifier,GS Mean,min_samples_split,460,upselling,0.8420138019901926
+283,Random Forest Classifier,GS Mean,min_samples_split,480,upselling,0.8412561733694178
+284,Random Forest Classifier,GS Mean,min_samples_split,500,upselling,0.8410930566504052
+285,Random Forest Classifier,GS Mean,min_samples_split,520,upselling,0.8408248419861369
+286,Random Forest Classifier,GS Mean,min_samples_split,540,upselling,0.8371152328504848
+287,Random Forest Classifier,GS Mean,min_samples_split,560,upselling,0.8360100512474786
+288,Random Forest Classifier,GS Mean,min_samples_split,580,upselling,0.8379762784639541
+289,Random Forest Classifier,GS Mean,min_samples_split,600,upselling,0.8399294651392614
+290,Random Forest Classifier,GS Mean,min_samples_split,620,upselling,0.8391421018705253
+291,Random Forest Classifier,GS Mean,min_samples_split,640,upselling,0.8406372023136828
+292,Random Forest Classifier,GS Mean,min_samples_split,660,upselling,0.8398298040367829
+293,Random Forest Classifier,GS Mean,min_samples_split,680,upselling,0.8376619736403773
+294,Random Forest Classifier,GS Mean,min_samples_split,700,upselling,0.83832843926589
+295,Random Forest Classifier,GS Mean,min_samples_split,720,upselling,0.8395069560988896
+296,Random Forest Classifier,GS Mean,min_samples_split,740,upselling,0.8394026718273064
+297,Random Forest Classifier,GS Mean,min_samples_split,760,upselling,0.8419380326492035
+298,Random Forest Classifier,GS Mean,min_samples_split,780,upselling,0.8404161141893752
+299,Random Forest Classifier,GS Mean,min_samples_split,800,upselling,0.8400360550186442
+300,Random Forest Classifier,GS Mean,min_samples_split,820,upselling,0.840823421882518
+301,Random Forest Classifier,GS Mean,min_samples_split,840,upselling,0.8405224904711401
+302,Random Forest Classifier,GS Mean,min_samples_split,860,upselling,0.8413301014884739
+303,Random Forest Classifier,GS Mean,min_samples_split,880,upselling,0.8422740606270661
+304,Random Forest Classifier,GS Mean,min_samples_split,900,upselling,0.8396344438436559
+305,Random Forest Classifier,GS Mean,min_samples_split,920,upselling,0.8392067242002245
+306,Random Forest Classifier,GS Mean,min_samples_split,940,upselling,0.8394425797810725
+307,Random Forest Classifier,GS Mean,min_samples_split,960,upselling,0.8390719556374675
+308,Random Forest Classifier,GS Mean,min_samples_split,980,upselling,0.8390657043722128
+309,Random Forest Classifier,GS Mean,min_samples_split,1000,upselling,0.8383429357339729
+310,Random Forest Classifier,roc_auc_score,GS Best,"{'max_depth': 5, 'min_samples_split': 640}",upselling,0.8693992961559713
+311,Random Forest Classifier,GS Mean,Multi,"{'max_depth': 5, 'min_samples_split': 640}",upselling,0.8693992961559713

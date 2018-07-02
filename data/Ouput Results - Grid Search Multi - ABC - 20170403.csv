@@ -1,0 +1,6 @@
+0,AdaBoost Classifier,roc_auc_score,GS Best,{'learning_rate': 8},churn,0.6943464973132867
+1,AdaBoost Classifier,gs,Multi,{'learning_rate': 8},churn,0.6943464973132867
+2,AdaBoost Classifier,roc_auc_score,GS Best,{'learning_rate': 6},appetency,0.7870937882651062
+3,AdaBoost Classifier,gs,Multi,{'learning_rate': 6},appetency,0.7870937882651062
+4,AdaBoost Classifier,roc_auc_score,GS Best,{'learning_rate': 4},upselling,0.8636286789028023
+5,AdaBoost Classifier,gs,Multi,{'learning_rate': 4},upselling,0.8636286789028023

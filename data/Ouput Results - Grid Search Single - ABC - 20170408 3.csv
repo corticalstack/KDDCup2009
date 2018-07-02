@@ -1,0 +1,36 @@
+0,AdaBoost Classifier,roc_auc_score,GS Best,{'n_estimators': 1450},churn,0.6601735374182367
+1,AdaBoost Classifier,gs,n_estimators,50,churn,0.6273593231181379
+2,AdaBoost Classifier,gs,n_estimators,100,churn,0.6093250628632148
+3,AdaBoost Classifier,gs,n_estimators,150,churn,0.6093222630494808
+4,AdaBoost Classifier,gs,n_estimators,200,churn,0.6111417612742084
+5,AdaBoost Classifier,gs,n_estimators,250,churn,0.6103798511246629
+6,AdaBoost Classifier,gs,n_estimators,300,churn,0.612197899769542
+7,AdaBoost Classifier,gs,n_estimators,350,churn,0.6117658896345247
+8,AdaBoost Classifier,gs,n_estimators,400,churn,0.613623036339182
+9,AdaBoost Classifier,gs,n_estimators,450,churn,0.6162919755518129
+10,AdaBoost Classifier,gs,n_estimators,500,churn,0.6177618991902182
+11,AdaBoost Classifier,gs,n_estimators,550,churn,0.6210339420091033
+12,AdaBoost Classifier,gs,n_estimators,600,churn,0.6227321601284633
+13,AdaBoost Classifier,gs,n_estimators,650,churn,0.6239439381119464
+14,AdaBoost Classifier,gs,n_estimators,700,churn,0.6259335378721197
+15,AdaBoost Classifier,gs,n_estimators,750,churn,0.626597852048261
+16,AdaBoost Classifier,gs,n_estimators,800,churn,0.6264052923105328
+17,AdaBoost Classifier,gs,n_estimators,850,churn,0.6276215877176975
+18,AdaBoost Classifier,gs,n_estimators,900,churn,0.6294688724475258
+19,AdaBoost Classifier,gs,n_estimators,950,churn,0.6292802648577086
+20,AdaBoost Classifier,gs,n_estimators,1000,churn,0.6303431254505281
+21,AdaBoost Classifier,gs,n_estimators,1050,churn,0.630514719184022
+22,AdaBoost Classifier,gs,n_estimators,1100,churn,0.6315593607747837
+23,AdaBoost Classifier,gs,n_estimators,1150,churn,0.6325358188746947
+24,AdaBoost Classifier,gs,n_estimators,1200,churn,0.6321318055102728
+25,AdaBoost Classifier,gs,n_estimators,1250,churn,0.6331917454390458
+26,AdaBoost Classifier,gs,n_estimators,1300,churn,0.6343446070089551
+27,AdaBoost Classifier,gs,n_estimators,1350,churn,0.6353384541691758
+28,AdaBoost Classifier,gs,n_estimators,1400,churn,0.6375492960139161
+29,AdaBoost Classifier,gs,n_estimators,1450,churn,0.6382897564550049
+30,AdaBoost Classifier,gs,n_estimators,1500,churn,0.6373958931620984
+31,AdaBoost Classifier,roc_auc_score,GS Best,{'learning_rate': 0.2},churn,0.6320503332348854
+32,AdaBoost Classifier,gs,learning_rate,0.1,churn,0.6227934463787574
+33,AdaBoost Classifier,gs,learning_rate,0.2,churn,0.6236538305017025
+34,AdaBoost Classifier,gs,learning_rate,0.5,churn,0.6135986133391494
+35,AdaBoost Classifier,gs,learning_rate,1.0,churn,0.6177618991902182

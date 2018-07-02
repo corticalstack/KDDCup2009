@@ -1,0 +1,75 @@
+0,AdaBoost Classifier,roc_auc_score,GS Best,{'n_estimators': 900},churn,0.6429707586674267
+1,AdaBoost Classifier,gs,n_estimators,50,churn,0.6273593231181379
+2,AdaBoost Classifier,gs,n_estimators,100,churn,0.6093250628632148
+3,AdaBoost Classifier,gs,n_estimators,150,churn,0.6093222630494808
+4,AdaBoost Classifier,gs,n_estimators,200,churn,0.6111417612742084
+5,AdaBoost Classifier,gs,n_estimators,250,churn,0.6103798511246629
+6,AdaBoost Classifier,gs,n_estimators,300,churn,0.612197899769542
+7,AdaBoost Classifier,gs,n_estimators,350,churn,0.6117658896345247
+8,AdaBoost Classifier,gs,n_estimators,400,churn,0.613623036339182
+9,AdaBoost Classifier,gs,n_estimators,450,churn,0.6162919755518129
+10,AdaBoost Classifier,gs,n_estimators,500,churn,0.6177618991902182
+11,AdaBoost Classifier,gs,n_estimators,550,churn,0.6210339420091033
+12,AdaBoost Classifier,gs,n_estimators,600,churn,0.6227321601284633
+13,AdaBoost Classifier,gs,n_estimators,650,churn,0.6239439381119464
+14,AdaBoost Classifier,gs,n_estimators,700,churn,0.6259335378721197
+15,AdaBoost Classifier,gs,n_estimators,750,churn,0.626597852048261
+16,AdaBoost Classifier,gs,n_estimators,800,churn,0.6264052923105328
+17,AdaBoost Classifier,gs,n_estimators,850,churn,0.6276215877176975
+18,AdaBoost Classifier,gs,n_estimators,900,churn,0.6294688724475258
+19,AdaBoost Classifier,gs,n_estimators,950,churn,0.6292802648577086
+20,AdaBoost Classifier,roc_auc_score,GS Best,{'learning_rate': 0.2},churn,0.6320503332348854
+21,AdaBoost Classifier,gs,learning_rate,0.1,churn,0.6227934463787574
+22,AdaBoost Classifier,gs,learning_rate,0.2,churn,0.6236538305017025
+23,AdaBoost Classifier,gs,learning_rate,0.5,churn,0.6135986133391494
+24,AdaBoost Classifier,gs,learning_rate,1.0,churn,0.6177618991902182
+25,AdaBoost Classifier,roc_auc_score,GS Best,{'n_estimators': 850},appetency,0.6878977612324527
+26,AdaBoost Classifier,gs,n_estimators,50,appetency,0.6309447930366582
+27,AdaBoost Classifier,gs,n_estimators,100,appetency,0.6263813731744552
+28,AdaBoost Classifier,gs,n_estimators,150,appetency,0.6342006681875084
+29,AdaBoost Classifier,gs,n_estimators,200,appetency,0.6431597426743482
+30,AdaBoost Classifier,gs,n_estimators,250,appetency,0.648300636566382
+31,AdaBoost Classifier,gs,n_estimators,300,appetency,0.6510304000810224
+32,AdaBoost Classifier,gs,n_estimators,350,appetency,0.6532855128022664
+33,AdaBoost Classifier,gs,n_estimators,400,appetency,0.6582217569402564
+34,AdaBoost Classifier,gs,n_estimators,450,appetency,0.6567350895921386
+35,AdaBoost Classifier,gs,n_estimators,500,appetency,0.6610254351155902
+36,AdaBoost Classifier,gs,n_estimators,550,appetency,0.6653696891179869
+37,AdaBoost Classifier,gs,n_estimators,600,appetency,0.6660218921036253
+38,AdaBoost Classifier,gs,n_estimators,650,appetency,0.670287898668129
+39,AdaBoost Classifier,gs,n_estimators,700,appetency,0.6758244157817715
+40,AdaBoost Classifier,gs,n_estimators,750,appetency,0.6756241582021402
+41,AdaBoost Classifier,gs,n_estimators,800,appetency,0.6771206782008529
+42,AdaBoost Classifier,gs,n_estimators,850,appetency,0.6797886668356675
+43,AdaBoost Classifier,gs,n_estimators,900,appetency,0.6769146146548187
+44,AdaBoost Classifier,gs,n_estimators,950,appetency,0.6776038275300093
+45,AdaBoost Classifier,roc_auc_score,GS Best,{'learning_rate': 1.0},appetency,0.6689227456186104
+46,AdaBoost Classifier,gs,learning_rate,0.1,appetency,0.6263769283708517
+47,AdaBoost Classifier,gs,learning_rate,0.2,appetency,0.635184987551814
+48,AdaBoost Classifier,gs,learning_rate,0.5,appetency,0.6539726630446068
+49,AdaBoost Classifier,gs,learning_rate,1.0,appetency,0.6610254351155902
+50,AdaBoost Classifier,roc_auc_score,GS Best,{'n_estimators': 950},upselling,0.8299617678041522
+51,AdaBoost Classifier,gs,n_estimators,50,upselling,0.7978045508511503
+52,AdaBoost Classifier,gs,n_estimators,100,upselling,0.7910309071033015
+53,AdaBoost Classifier,gs,n_estimators,150,upselling,0.7927361916859924
+54,AdaBoost Classifier,gs,n_estimators,200,upselling,0.7901213325296462
+55,AdaBoost Classifier,gs,n_estimators,250,upselling,0.786179585971928
+56,AdaBoost Classifier,gs,n_estimators,300,upselling,0.789307395674217
+57,AdaBoost Classifier,gs,n_estimators,350,upselling,0.7942696723408197
+58,AdaBoost Classifier,gs,n_estimators,400,upselling,0.7967188572337193
+59,AdaBoost Classifier,gs,n_estimators,450,upselling,0.7997263972322542
+60,AdaBoost Classifier,gs,n_estimators,500,upselling,0.800091067077329
+61,AdaBoost Classifier,gs,n_estimators,550,upselling,0.8007440050084237
+62,AdaBoost Classifier,gs,n_estimators,600,upselling,0.8027400606135672
+63,AdaBoost Classifier,gs,n_estimators,650,upselling,0.8051166016957464
+64,AdaBoost Classifier,gs,n_estimators,700,upselling,0.8053885323468255
+65,AdaBoost Classifier,gs,n_estimators,750,upselling,0.8057673250261738
+66,AdaBoost Classifier,gs,n_estimators,800,upselling,0.8060958301666936
+67,AdaBoost Classifier,gs,n_estimators,850,upselling,0.8065393662883227
+68,AdaBoost Classifier,gs,n_estimators,900,upselling,0.8078411051231139
+69,AdaBoost Classifier,gs,n_estimators,950,upselling,0.8084014830653657
+70,AdaBoost Classifier,roc_auc_score,GS Best,{'learning_rate': 0.1},upselling,0.8336724886351768
+71,AdaBoost Classifier,gs,learning_rate,0.1,upselling,0.8103094056584818
+72,AdaBoost Classifier,gs,learning_rate,0.2,upselling,0.7994720568932673
+73,AdaBoost Classifier,gs,learning_rate,0.5,upselling,0.8001261590995328
+74,AdaBoost Classifier,gs,learning_rate,1.0,upselling,0.800091067077329

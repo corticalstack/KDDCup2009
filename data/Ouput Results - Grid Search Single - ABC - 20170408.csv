@@ -1,0 +1,39 @@
+0,AdaBoost Classifier,roc_auc_score,Baseline,algorithm='SAMME.R'           base_estimator=DecisionTreeClassifier,churn,0.6472465194068395
+1,AdaBoost Classifier,roc_auc_score,GS Best,{'n_estimators': 50},churn,0.6471585172364056
+2,AdaBoost Classifier,gs,n_estimators,50,churn,0.6227924542881135
+3,AdaBoost Classifier,gs,n_estimators,100,churn,0.6038999155006626
+4,AdaBoost Classifier,gs,n_estimators,200,churn,0.6001014360792127
+5,AdaBoost Classifier,gs,n_estimators,300,churn,0.6005465142020379
+6,AdaBoost Classifier,gs,n_estimators,400,churn,0.6007394299218003
+7,AdaBoost Classifier,gs,n_estimators,500,churn,0.6063051147766935
+8,AdaBoost Classifier,roc_auc_score,GS Best,{'learning_rate': 0.1},churn,0.6284880339943084
+9,AdaBoost Classifier,gs,learning_rate,0.1,churn,0.6239507354095708
+10,AdaBoost Classifier,gs,learning_rate,0.2,churn,0.6154733193682006
+11,AdaBoost Classifier,gs,learning_rate,0.5,churn,0.6168345672640775
+12,AdaBoost Classifier,gs,learning_rate,1.0,churn,0.6063051147766935
+13,AdaBoost Classifier,roc_auc_score,Baseline,algorithm='SAMME.R'           base_estimator=DecisionTreeClassifier,appetency,0.6818201151059167
+14,AdaBoost Classifier,roc_auc_score,GS Best,{'n_estimators': 500},appetency,0.6796856636946268
+15,AdaBoost Classifier,gs,n_estimators,50,appetency,0.5994805737465209
+16,AdaBoost Classifier,gs,n_estimators,100,appetency,0.5912460391500499
+17,AdaBoost Classifier,gs,n_estimators,200,appetency,0.6150370947819525
+18,AdaBoost Classifier,gs,n_estimators,300,appetency,0.6332650193473229
+19,AdaBoost Classifier,gs,n_estimators,400,appetency,0.6485365371010104
+20,AdaBoost Classifier,gs,n_estimators,500,appetency,0.6610695489579079
+21,AdaBoost Classifier,roc_auc_score,GS Best,{'learning_rate': 1.0},appetency,0.6796856636946268
+22,AdaBoost Classifier,gs,learning_rate,0.1,appetency,0.6350995985006551
+23,AdaBoost Classifier,gs,learning_rate,0.2,appetency,0.6427514137104612
+24,AdaBoost Classifier,gs,learning_rate,0.5,appetency,0.642911070586252
+25,AdaBoost Classifier,gs,learning_rate,1.0,appetency,0.6610695489579079
+26,AdaBoost Classifier,roc_auc_score,Baseline,algorithm='SAMME.R'           base_estimator=DecisionTreeClassifier,upselling,0.8100866193002672
+27,AdaBoost Classifier,roc_auc_score,GS Best,{'n_estimators': 500},upselling,0.8185211817614871
+28,AdaBoost Classifier,gs,n_estimators,50,upselling,0.7993634628711103
+29,AdaBoost Classifier,gs,n_estimators,100,upselling,0.7913065185977318
+30,AdaBoost Classifier,gs,n_estimators,200,upselling,0.7888475890196194
+31,AdaBoost Classifier,gs,n_estimators,300,upselling,0.7907065036671822
+32,AdaBoost Classifier,gs,n_estimators,400,upselling,0.7963984434177691
+33,AdaBoost Classifier,gs,n_estimators,500,upselling,0.8019953605493512
+34,AdaBoost Classifier,roc_auc_score,GS Best,{'learning_rate': 0.1},upselling,0.8319243338438439
+35,AdaBoost Classifier,gs,learning_rate,0.1,upselling,0.8061206677385054
+36,AdaBoost Classifier,gs,learning_rate,0.2,upselling,0.7997730020447723
+37,AdaBoost Classifier,gs,learning_rate,0.5,upselling,0.8004669361737647
+38,AdaBoost Classifier,gs,learning_rate,1.0,upselling,0.8019953605493512

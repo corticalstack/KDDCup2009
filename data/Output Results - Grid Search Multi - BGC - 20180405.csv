@@ -1,0 +1,6 @@
+0,Bagging Classifier,roc_auc_score,GS Best,{'max_samples': 0.5},churn,0.728427877713901
+1,Bagging Classifier,gs,Multi,{'max_samples': 0.5},churn,0.728427877713901
+2,Bagging Classifier,roc_auc_score,GS Best,{'max_samples': 1.0},appetency,0.8050701335739021
+3,Bagging Classifier,gs,Multi,{'max_samples': 1.0},appetency,0.8050701335739021
+4,Bagging Classifier,roc_auc_score,GS Best,{'max_samples': 0.6},upselling,0.866942810026104
+5,Bagging Classifier,gs,Multi,{'max_samples': 0.6},upselling,0.866942810026104
